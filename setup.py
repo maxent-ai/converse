@@ -18,7 +18,7 @@ with open('converse/__init__.py', 'r') as f:
 with open('README.md', 'r', encoding='utf-8') as f:
     readme = f.read()
 
-REQUIRES = []
+REQUIRES = [i.strip() for i in open("requirements.txt").readlines()]
 
 kwargs = {
     'name': 'Converse',
