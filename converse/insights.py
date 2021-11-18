@@ -1,8 +1,10 @@
 import attr
 import spacy
+import numpy as np
 import pandas as pd
-from ._const import backchannel
+from ._const import backchannel as constants
 from .utils import load_sentence_transformer, remove_punct, load_spacy, load_zeroshot_model
+from sklearn.metrics.pairwise import cosine_similarity
 
 
 nlp = load_spacy()
@@ -36,7 +38,7 @@ class Callyzer:
     data = attr.ib()
     utterance = attr.ib(default='utterance')
     speaker = attr.ib(default='speaker')
-    startime = attr.ib(default='startTime')
+    starttime = attr.ib(default='startTime')
     endtime = attr.ib(default='endTime')
 
     def __attrs_post_init__(self):
@@ -47,7 +49,7 @@ class Callyzer:
         if self.speaker not in columns:
             raise ValueError("Please pass proper utterance column")
 
-        if self.startime not in columns:
+        if self.starttime not in columns:
             raise ValueError(
                 "Please pass proper starttime column. We need to calculate feature like silence, interruption etc.")
 
@@ -95,7 +97,7 @@ class Callyzer:
 
         """
         return_dict = {}
-        start_times = self.data[self.startime].tolist()
+        start_times = self.data[self.starttime].tolist()
         end_times = self.data[self.endtime].tolist()
         interrupt_ids = []
 
@@ -150,9 +152,9 @@ class Callyzer:
         channels = self.data[self.speaker].unique()
         return_dict = {k: dict(metadata=[], count=0) for k in channels}
         for idx in id_list:
-            ch = df.iloc[idx+1]
+            ch = self.data.iloc[idx+1]
             channel = ch.get(self.speaker)
-            _ = dict(start_time=ch.get(self.startime),
+            _ = dict(start_time=ch.get(self.starttime),
                      end_time=ch.get(self.endtime), index=idx+1)
 
             update_data = return_dict[channel]
@@ -205,7 +207,7 @@ class Callyzer:
         """
         if type == 'default':
             backchannel = self.data[self.utterance].apply(
-                lambda x: self._is_backchannel(x, backchannel))
+                lambda x: self._is_backchannel(x))
 
         elif type == "nlp":
             backchannel = self._nlp_backchannel(
@@ -221,14 +223,14 @@ class Callyzer:
         else:
             return backchannel
 
-    def _is_backchannel(self, text, constant_list):
+    def _is_backchannel(self, text):
         is_back_ch = False
         clean_text = remove_punct(text)
 
-        if text in constant_list or text.lower() in constant_list:
+        if text in constants or text.lower() in constants:
             is_back_ch = True
 
-        if clean_text in constant_list or clean_text.lower() in constant_list:
+        if clean_text in constants or clean_text.lower() in constants:
             is_back_ch = True
 
         return is_back_ch
@@ -246,7 +248,7 @@ class Callyzer:
         utterance_vect = model.encode(utterances)
         sim = cosine_similarity(back_ch_vect, utterance_vect)[0]
         for idx, i in enumerate(sim):
-            if i >= 0.60 or abs(i-0.60) < 0.05:
+            if i >= 0.55 or abs(i-0.55) < 0.05:
                 return_list[idx] = True
         return return_list
 
@@ -301,7 +303,7 @@ class Callyzer:
         """
         Tag if the utterance is empathetic or not,
         """
-        candidate_labels = ['empathy', 'non_empathetic', 'neutral']
+        candidate_labels = ['empathy', 'non_empathetic', 'Neutral']
         texts = self.data[self.utterance].tolist()
         classes = self._classifier(texts, candidate_labels)
         if inplace:
@@ -315,7 +317,7 @@ class Callyzer:
             texts = [texts]
 
         return_data = []
-        for text in tqdm(texts):
+        for text in texts:
             resp = classifier(text, candidate_labels=candidate_labels)
             if resp['scores'][0] >= 0.45:
                 return_data.append(resp['labels'][0])
