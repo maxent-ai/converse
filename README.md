@@ -1,8 +1,7 @@
 Converse
 ========
 
-.. contents:: **Table of Contents**
-    :backlinks: none
+
 
 Installation
 ------------
@@ -11,9 +10,10 @@ Converse is distributed on `PyPI <https://pypi.org>`_ as a universal
 wheel and is available on Linux/macOS and Windows and supports
 Python 2.7/3.5+ and PyPy.
 
-.. code-block:: bash
+```bash
+python setup.py install
 
-    $ pip install Converse
+```
 
 License
 -------
