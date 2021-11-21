@@ -1,8 +1,9 @@
 # PyConverse
 -----------
 
-![](assets/PyConverse.png)
-
+<p align="center">
+  <img src="assets/converse.png">
+</p>
 ## Let me try first
 
 ### Installation 
