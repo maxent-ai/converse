@@ -73,3 +73,8 @@ At the moment pyconverse can do few things that broadly fall into these categori
 |Transformers|Spacy|Pytorch|
 |---|---|---|
 |![](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)|![](https://raw.githubusercontent.com/github/explore/8cf1837393d83900e767cc895dcc814d053e2ffe/topics/spacy/spacy.png)|![](https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png)|
+
+### Credits: 
+
+_Note: The backchannel Utterance classification method is inspired by facebook's [Unsupervised Topic Segmentation of Meetings with BERT Embeddings](https://arxiv.org/abs/2106.12978) paper (arXiv:2106.12978 [cs.LG])_
+
