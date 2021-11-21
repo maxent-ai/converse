@@ -1,18 +1,28 @@
 # Converse
 -----------
 
+## Let me try first
+
+### Installation 
+
+```
+pip install converse
+```
+
+### Usage
+
+Please try this notebook that demos the core functionalities: (usage_notebook)[notebook/usage.ipynb]
+
 ## Introduction
 
 Conversation analytics plays an increasingly important role in shaping great customer experiences across various industries like finance/contact centers etc..
 primarily to gain a deeper understanding about the customers and to better serve their needs. This library, *Converse* is an attempt to provide tools & methods which can be used to gain an understannding of the conversations from multiple perspecitves using various NLP techniques. 
 
-## Background
-
-### Why *Converse*?
+## Why *Converse*?
 
 I have been doing what can be called as conversational text NLP with primarily contact center data from various domains like Financial services, Banking, Insurace etc for the past year or so, and I have not come across any interesting open source tools that can help in understanding conversational texts as such I decided to create this library that can provide various tools and methods to analyse calls and help answer important questions/compute important metrics that usually people want to find from conversations, in contact center data analysis settings. 
 
-### Where can I use *Converse*?
+## Where can I use *Converse*?
 
 The primary usecase is geared towards contact center call analytics, but most of tools that Converse provides can be used elsewhere as well. 
 
@@ -28,7 +38,7 @@ If you are looking to answer questions like these:-
 
 and more... converse might be of a small help.
 
-### What can *Converse* do?
+## What can *Converse* do?
 
 At the moment converse can do few things that broadly fall into these categories:- 
 
