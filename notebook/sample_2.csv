@@ -1,0 +1,580 @@
+filename,path,utt_num,who,role,postcodes,gems,utterance,startTime,endTime
+16,class/Bradford/16,0,INV,Investigator,,,tell me everything you know about the Pilgrims.,20.028,26.782
+16,class/Bradford/16,1,CHI,Child,,,I know that they first began at Plymouth_Rock,26.782,34.369
+16,class/Bradford/16,2,CHI,Child,,,and they were sort_of enemies with the Indians,34.369,41.804
+16,class/Bradford/16,3,CHI,Child,,,and they made Thanksgiving when they made friendship with the Indians,41.804,57.395
+16,class/Bradford/16,4,CHI,Child,,,that's what I know.,57.395,61.447
+16,class/Bradford/16,5,INV,Investigator,,,anything else.,61.447,62.213
+16,class/Bradford/16,6,CHI,Child,,,yeah,62.213,66.681
+16,class/Bradford/16,7,CHI,Child,,,many of them died because they starved,66.681,71.732
+16,class/Bradford/16,8,CHI,Child,,,and when they got there they didn't have much supplies,71.732,75.3
+16,class/Bradford/16,9,CHI,Child,,,so they had to start from scratch and everything.,75.3,80.534
+16,class/Bradford/16,10,INV,Investigator,,,anything else.,80.534,82.884
+16,class/Bradford/16,11,CHI,Child,,,they brought diseases to the Indians' homeland,82.884,100.343
+16,class/Bradford/16,12,CHI,Child,,,and many of the Indians died too.,100.343,103.376
+16,class/Bradford/16,13,INV,Investigator,,,okay,103.376,105.292
+16,class/Bradford/16,14,INV,Investigator,,,okay tell me what you know about George_Washington.,105.292,108.844
+16,class/Bradford/16,15,CHI,Child,,,he was the first president,108.844,115.094
+16,class/Bradford/16,16,CHI,Child,,,and he used to be a general,115.094,121.432
+16,class/Bradford/16,17,CHI,Child,,,and he was one of the delegates,121.432,124.85
+16,class/Bradford/16,18,CHI,Child,,,and he was part of the thirteen colonies,124.85,133.266
+16,class/Bradford/16,19,CHI,Child,,,and he was a plantation owner,133.266,140.5
+16,class/Bradford/16,20,CHI,Child,,,and he was in the war of Delaware.,140.5,146.303
+16,class/Bradford/16,21,INV,Investigator,,,anything else.,146.303,153.038
+16,class/Bradford/16,22,CHI,Child,,,unhunh.,153.038,155.854
+16,class/Bradford/16,23,INV,Investigator,,,okay,155.854,156.756
+16,class/Bradford/16,24,INV,Investigator,,,tell me what you know about the Declaration_of_Independence.,156.756,159.874
+16,class/Bradford/16,25,CHI,Child,,,James_Thomas wrote most of it,159.874,170.044
+16,class/Bradford/16,26,CHI,Child,,,and it made the rights of all people.,170.044,182.332
+16,class/Bradford/16,27,INV,Investigator,,,anything else.,186.217,186.733
+16,class/Bradford/16,28,CHI,Child,,,unhunh.,186.733,190.224
+16,class/Bradford/16,29,INV,Investigator,,,okay you can tell me even if you're not sure,190.224,192.441
+16,class/Bradford/16,30,INV,Investigator,,,that's it.,192.441,193.441
+16,class/Bradford/16,31,CHI,Child,,,mhm.,193.441,194.407
+16,class/Bradford/16,32,INV,Investigator,,,okay tell me what you know about Benjamin_Franklin.,194.407,197.657
+16,class/Bradford/16,33,CHI,Child,,,he was one of the first ones to sign the declaration,197.657,208.573
+16,class/Bradford/16,34,CHI,Child,,,and he wasn't,208.573,215.697
+16,class/Bradford/16,35,CHI,Child,,,at first he didn't get a chance to go to school,215.697,221.601
+16,class/Bradford/16,36,CHI,Child,,,but then he just started reading books and that's how he really get smart,221.601,228.088
+16,class/Bradford/16,37,CHI,Child,,,and he discovered electricity using a kite and a key.,228.088,236.172
+16,class/Bradford/16,38,INV,Investigator,,,anything else.,236.172,241.506
+16,class/Bradford/16,39,CHI,Child,,,unhunh.,241.506,243.706
+16,class/Bradford/16,40,INV,Investigator,,,okay,243.706,244.472
+16,class/Bradford/16,41,INV,Investigator,,,tell me what you know about Abraham_Lincoln.,244.472,247.324
+16,class/Bradford/16,42,CHI,Child,,,he was one of the presidents to get assassinated,247.324,260.228
+16,class/Bradford/16,43,CHI,Child,,,and he stopped,260.228,265.446
+16,class/Bradford/16,44,CHI,Child,,,he was one of the causes of the civil right ending,265.446,271.498
+16,class/Bradford/16,45,CHI,Child,,,and he is on the rocks those,271.498,288.757
+16,class/Bradford/16,46,CHI,Child,,,he is one of the greatest presidents.,288.757,293.525
+16,class/Bradford/16,47,INV,Investigator,,,anything else.,293.525,298.326
+16,class/Bradford/16,48,CHI,Child,,,no.,298.326,303.996
+16,class/Bradford/16,49,INV,Investigator,,,okay,303.996,304.562
+16,class/Bradford/16,50,INV,Investigator,,,tell me what you know about the Civil_War.,304.562,307.096
+16,class/Bradford/16,51,CHI,Child,,,it was fought for the rights of Blacks,307.096,317.279
+16,class/Bradford/16,52,CHI,Child,,,and it was two different sides the Confederate and the,317.279,342.973
+16,class/Bradford/16,53,CHI,Child,,,well I know one side was the Confederate.,342.973,346.323
+16,class/Bradford/16,54,INV,Investigator,,,okay.,346.323,346.889
+16,class/Bradford/16,55,CHI,Child,,,and it was said to be one of the most deadly wars that was ever done in North_America.,346.889,361.439
+16,class/Bradford/16,56,INV,Investigator,,,mhm.,361.439,362.156
+16,class/Bradford/16,57,CHI,Child,,,that's it.,362.156,373.639
+16,class/Bradford/16,58,INV,Investigator,,,nothing else about the Civil_War.,373.639,376.105
+16,class/Bradford/16,59,CHI,Child,,,many people became rebels and were run out either side.,376.105,396.921
+16,class/Bradford/16,60,INV,Investigator,,,mhm.,396.721,397.837
+16,class/Bradford/16,61,CHI,Child,,,and so if anybody had to send spies they had to be careful.,397.837,408.906
+16,class/Bradford/16,62,INV,Investigator,,,mhm,408.906,410.322
+16,class/Bradford/16,63,INV,Investigator,,,anything else.,410.322,412.955
+16,class/Bradford/16,64,CHI,Child,,,unhunh.,412.955,414.0
+16,class/Bradford/16,65,INV,Investigator,,,okay,414.0,414.5
+16,class/Bradford/16,66,INV,Investigator,,,tell me what you know about the Constitution of the United_States,414.5,419.376
+16,class/Bradford/16,68,INV,Investigator,,,tell me what you know about the Constitution of the United_States.,445.957,450.092
+16,class/Bradford/16,69,CHI,Child,,,I know that it was made around seventeen seventy six,450.092,468.166
+16,class/Bradford/16,70,CHI,Child,,,and it was something that the delegates had to argue over and make sure they was arguing over whether it should be one government or separated powers,468.166,498.446
+16,class/Bradford/16,71,CHI,Child,,,and they came to a choice of separated powers.,498.446,505.016
+16,class/Bradford/16,72,INV,Investigator,,,anything else.,505.016,509.968
+16,class/Bradford/16,73,CHI,Child,,,unhunh.,509.968,511.868
+16,class/Bradford/16,74,INV,Investigator,,,that's it.,511.868,512.718
+16,class/Bradford/16,75,CHI,Child,,,mhm.,512.718,513.884
+16,class/Bradford/16,76,INV,Investigator,,,okay tell me what you know about John_F_Kennedy.,513.386,516.836
+16,class/Bradford/16,77,CHI,Child,,,he was a assassinated president that was involved in the Civil_Rights_Act with Martin_Luther_King,516.836,533.226
+16,class/Bradford/16,78,CHI,Child,,,he was very important because he was the president and he had all the power over whether or not there should be segregated schools and all of that.,533.226,560.835
+16,class/Bradford/16,80,INV,Investigator,,,anything else.,563.018,565.401
+16,class/Bradford/16,81,CHI,Child,,,unhunh.,565.401,579.358
+16,class/Bradford/16,82,INV,Investigator,,,that's it about John_F_Kennedy.,578.358,580.024
+16,class/Bradford/16,83,CHI,Child,,,mhm.,580.024,580.791
+16,class/Bradford/16,84,INV,Investigator,,,okay,580.791,581.508
+16,class/Bradford/16,85,INV,Investigator,,,tell me what you know about the atomic bomb.,581.508,585.158
+16,class/Bradford/16,86,CHI,Child,,,Albert_Einstein made it to end the World_War,585.158,592.691
+16,class/Bradford/16,87,CHI,Child,,,to destroy the Chinese,592.691,595.591
+16,class/Bradford/16,88,CHI,Child,,,and then there was a disease caused by that bomb called leukemia,595.591,606.108
+16,class/Bradford/16,89,CHI,Child,,,and that's it.,606.108,632.324
+16,class/Bradford/16,90,INV,Investigator,,,that's all,632.324,632.958
+16,class/Bradford/16,91,INV,Investigator,,,okay,632.958,633.674
+16,class/Bradford/16,92,INV,Investigator,,,tell me what you know about the Industrial_Revolution,633.674,638.0
+16,class/Bradford/16,93,INV,Investigator,,,the Industrial_Revolution.,638.0,640.861
+16,class/Bradford/16,94,CHI,Child,,,I know that it was fought between the British and the colonies,640.861,650.799
+16,class/Bradford/16,95,CHI,Child,,,and they were fighting because they wanted their rights and they didn't want to go back not to England.,650.799,668.59
+16,class/Bradford/16,96,INV,Investigator,,,anything else.,668.59,671.44
+16,class/Bradford/16,97,CHI,Child,,,that's it.,671.44,686.049
+16,class/Bradford/16,98,INV,Investigator,,,okay,686.049,687.699
+16,class/Bradford/16,99,INV,Investigator,,,now tell me what you know about Martin_Luther_King_Junior.,687.699,692.534
+16,class/Bradford/16,100,CHI,Child,,,I know that he died for the rights of the Blacks and was known for his speeches.,692.534,711.973
+16,class/Bradford/16,101,INV,Investigator,,,mhm,711.973,713.039
+16,class/Bradford/16,102,INV,Investigator,,,anything else.,713.039,714.189
+16,class/Bradford/16,103,CHI,Child,,,he was very very intelligent and had to show his courage because there was many people out there to kill him,714.189,737.049
+16,class/Bradford/16,104,CHI,Child,,,and had to prove that violence wasn't the answer.,737.049,747.368
+16,class/Bradford/16,105,INV,Investigator,,,anything else.,747.368,751.086
+16,class/Bradford/16,106,CHI,Child,,,unhunh.,751.086,756.452
+16,class/Bradford/16,107,INV,Investigator,,,okay,756.452,757.352
+16,class/Bradford/16,108,INV,Investigator,,,tell me what you know about the slave trade.,757.352,761.022
+16,class/Bradford/16,109,CHI,Child,,,it was set up in a triangle,761.022,763.372
+16,class/Bradford/16,110,CHI,Child,,,and they rubbed like grease all over them to make them shiny to make them look good so they could sell,763.372,778.038
+16,class/Bradford/16,111,CHI,Child,,,and it was,778.038,783.547
+16,class/Bradford/16,112,CHI,Child,,,at first they had the Chinese working,783.547,791.663
+16,class/Bradford/16,113,CHI,Child,,,but they saw that they died quickly,791.663,794.647
+16,class/Bradford/16,114,CHI,Child,,,so they had to get people that was able to work in the sun.,794.647,800.78
+16,class/Bradford/16,115,INV,Investigator,,,mhm.,800.78,802.863
+16,class/Bradford/16,116,CHI,Child,,,and they traded the slaves for things like grains and silk stuff like that,802.863,817.23
+16,class/Bradford/16,117,CHI,Child,,,and that's it.,817.23,823.8
+16,class/Bradford/16,118,INV,Investigator,,,nothing else about the slave trade,823.8,825.45
+16,class/Bradford/16,119,INV,Investigator,,,okay,825.45,826.716
+16,class/Bradford/16,120,INV,Investigator,,,what do you know about the civil rights movement.,826.716,830.871
+16,class/Bradford/16,121,CHI,Child,,,I know that Malcolm_X and Martin_Luther_King were joined in it.,830.871,842.843
+16,class/Bradford/16,122,INV,Investigator,,,mhm.,842.843,843.526
+16,class/Bradford/16,123,CHI,Child,,,it was fought for the rights of the Blacks,843.526,851.459
+16,class/Bradford/16,124,CHI,Child,,,they wanted the same rights as the Whites.,851.459,854.876
+16,class/Bradford/16,125,INV,Investigator,,,mhm.,854.876,855.442
+16,class/Bradford/16,126,CHI,Child,,,they thought that it was unfair.,855.442,862.559
+16,class/Bradford/16,127,INV,Investigator,,,mhm.,862.559,863.292
+16,class/Bradford/16,128,CHI,Child,,,for them to have all the special treatment instead of what they deserved.,863.292,876.558
+16,class/Bradford/16,129,INV,Investigator,,,mhm,871.4,871.95
+16,class/Bradford/16,130,INV,Investigator,,,mhm.,876.558,877.308
+16,class/Bradford/16,131,CHI,Child,,,so they boycotted the buses in Montgomery,877.308,889.274
+16,class/Bradford/16,132,CHI,Child,,,and they marched and fasted.,889.274,893.491
+16,class/Bradford/16,133,INV,Investigator,,,mhm.,893.491,896.208
+16,class/Bradford/16,134,CHI,Child,,,they they made speeches of encouragement to keep going for their rights.,896.208,931.191
+16,class/Bradford/16,135,INV,Investigator,,,anything else.,931.191,932.291
+16,class/Bradford/16,136,CHI,Child,,,unhunh.,932.291,934.041
+16,class/Bradford/16,137,INV,Investigator,,,okay,934.041,934.541
+16,class/Bradford/16,138,INV,Investigator,,,tell me what you know about Harriet_Tubman.,934.541,937.607
+16,class/Bradford/16,139,CHI,Child,,,I know that she was a abolitionist that brought slaves the north where they could be free.,937.607,955.173
+16,class/Bradford/16,140,INV,Investigator,,,mhm.,955.173,957.24
+16,class/Bradford/16,141,CHI,Child,,,and was one of the first people to use the Underground_Railroad.,957.24,964.14
+16,class/Bradford/16,142,INV,Investigator,,,okay.,964.14,967.473
+16,class/Bradford/16,143,CHI,Child,,,she was more fearless than some people were,967.473,982.306
+16,class/Bradford/16,144,CHI,Child,,,so she wasn't very afraid to keep coming from the north.,982.306,997.489
+16,class/Bradford/16,145,INV,Investigator,,,mhm.,997.489,998.373
+16,class/Bradford/16,146,CHI,Child,,,and that's it.,998.373,1001.973
+16,class/Bradford/16,147,INV,Investigator,,,nothing else,1001.973,1003.006
+16,class/Bradford/16,148,INV,Investigator,,,okay,1003.006,1004.622
+16,class/Bradford/16,149,INV,Investigator,,,tell me what you know about Frederick_Douglass.,1004.622,1007.022
+16,class/Bradford/16,150,CHI,Child,,,he was one of the first Black men to be known to read and be able to be considered known like a lawman.,1007.022,1058.722
+16,class/Bradford/16,151,INV,Investigator,,,mhm.,1058.722,1059.272
+16,class/Bradford/16,152,CHI,Child,,,to the Whites to fight for the Blacks for Black people's rights.,1059.272,1066.855
+16,class/Bradford/16,153,INV,Investigator,,,anything else.,1066.855,1070.122
+16,class/Bradford/16,154,CHI,Child,,,unhunh.,1070.122,1073.305
+16,class/Bradford/16,155,INV,Investigator,,,okay,1073.305,1073.855
+16,class/Bradford/16,156,INV,Investigator,,,okay,1073.855,1074.471
+16,class/Bradford/16,157,INV,Investigator,,,tell me what you know about the NAACP,1074.471,1077.038
+16,class/Bradford/16,159,INV,Investigator,,,the NAACP.,1111.0,1113.433
+16,class/Bradford/16,160,CHI,Child,,,the NAACP was made by.,1113.433,1156.0
+16,class/Bradford/16,161,INV,Investigator,,,even if you're not sure,1156.0,1157.183
+16,class/Bradford/16,162,INV,Investigator,,,you can tell me anyway.,1157.183,1158.35
+16,class/Bradford/16,163,CHI,Child,,,I think it was Duke_Ellington who started or,1161.121,1166.722
+16,class/Bradford/16,164,CHI,Child,,,that's all.,1166.722,1181.988
+16,class/Bradford/16,165,INV,Investigator,,,okay,1181.988,1182.538
+16,class/Bradford/16,166,INV,Investigator,,,tell me what you know about Malcolm_X.,1182.538,1184.805
+16,class/Bradford/16,167,CHI,Child,,,at first he was real bad and was sent to jail because he was like running a heist with two White women stealing,1184.805,1206.3
+16,class/Bradford/16,168,CHI,Child,,,the White women would babysit,1206.3,1208.916
+16,class/Bradford/16,169,CHI,Child,,,and they would steal all the money they could find under the people home they was babysit for.,1208.916,1214.433
+16,class/Bradford/16,170,INV,Investigator,,,mhm.,1214.433,1215.166
+16,class/Bradford/16,171,CHI,Child,,,and so the White women they said that it was Malcolm_X who did it and not them.,1215.166,1224.649
+16,class/Bradford/16,172,INV,Investigator,,,mhm.,1224.649,1225.915
+16,class/Bradford/16,173,CHI,Child,,,and he was sent to jail,1225.915,1228.265
+16,class/Bradford/16,174,CHI,Child,,,and Elijah_Muhammad talked to him about different things and he became a Muslim,1228.265,1237.299
+16,class/Bradford/16,175,CHI,Child,,,and he was one of the civil rights leaders too,1237.299,1244.049
+16,class/Bradford/16,176,CHI,Child,,,but he believed in violence,1244.049,1247.115
+16,class/Bradford/16,177,CHI,Child,,,violence with violence.,1247.115,1249.015
+16,class/Bradford/16,178,INV,Investigator,,,mhm.,1249.015,1249.781
+16,class/Bradford/16,179,CHI,Child,,,and he was assassinated along with Martin_Luther_King_Junior.,1249.781,1267.598
+16,class/Bradford/16,180,INV,Investigator,,,okay anything else.,1267.598,1269.365
+16,class/Bradford/16,181,CHI,Child,,,unhunh.,1269.365,1273.798
+16,class/Bradford/16,182,INV,Investigator,,,okay,1273.798,1274.481
+16,class/Bradford/16,183,INV,Investigator,,,tell me what you know about Muhammad_Ali.,1274.481,1276.965
+16,class/Bradford/16,184,CHI,Child,,,he made up the phrase,1276.965,1282.215
+16,class/Bradford/16,185,CHI,Child,,,shock the world,1282.215,1283.365
+16,class/Bradford/16,186,CHI,Child,,,and was one of the boxers to have the championship most often,1283.365,1306.215
+16,class/Bradford/16,187,CHI,Child,,,and used the Rope_A_Dope to win his last championship.,1306.215,1320.665
+16,class/Bradford/16,188,INV,Investigator,,,mhm,1320.665,1323.415
+16,class/Bradford/16,189,INV,Investigator,,,anything else.,1323.415,1325.131
+16,class/Bradford/16,190,CHI,Child,,,he changed his name,1325.131,1337.131
+16,class/Bradford/16,191,CHI,Child,,,and he was like an instigator like a antagonizer like a bothersome person,1337.131,1363.081
+16,class/Bradford/16,192,CHI,Child,,,and he went to like over in Africa to speak,1363.081,1380.647
+16,class/Bradford/16,193,CHI,Child,,,and they didn't like it.,1380.647,1386.197
+16,class/Bradford/16,194,INV,Investigator,,,anything else.,1386.197,1394.597
+16,class/Bradford/16,195,CHI,Child,,,unhunh.,1394.597,1395.731
+16,class/Bradford/16,196,INV,Investigator,,,okay,1395.731,1396.347
+16,class/Bradford/16,197,INV,Investigator,,,tell me what you know about the Ku_Klux_Klan.,1396.347,1398.847
+16,class/Bradford/16,198,CHI,Child,,,I know that they are in some parts of the United_States today,1398.847,1408.681
+16,class/Bradford/16,199,CHI,Child,,,and favor enslavement of Blacks.,1408.681,1416.631
+16,class/Bradford/16,200,INV,Investigator,,,mhm.,1416.631,1418.781
+16,class/Bradford/16,201,CHI,Child,,,and they killed Emmett_Till.,1418.781,1427.447
+16,class/Bradford/16,202,INV,Investigator,,,mhm.,1427.447,1433.43
+16,class/Bradford/16,203,CHI,Child,,,and they killed many other Blacks during the civil rights movement.,1433.43,1441.113
+16,class/Bradford/16,204,INV,Investigator,,,mhm.,1441.113,1444.513
+16,class/Bradford/16,205,CHI,Child,,,they burned and bombed many churches and homes of Black people.,1444.513,1458.279
+16,class/Bradford/16,206,INV,Investigator,,,mhm.,1458.279,1458.929
+16,class/Bradford/16,207,CHI,Child,,,that's it.,1458.929,1461.663
+16,class/Bradford/16,208,INV,Investigator,,,that's all for the Ku_Klux_Klan.,1461.663,1463.379
+16,class/Bradford/16,209,CHI,Child,,,mhm.,1463.379,1464.029
+16,class/Bradford/16,210,INV,Investigator,,,tell me what you know about the Montgomery bus boycott.,1464.029,1466.229
+16,class/Bradford/16,211,CHI,Child,,,it was started by Rosa_Park because she was sent to jail because she didn't wanna go sit in the back of the bus,1466.229,1479.713
+16,class/Bradford/16,212,CHI,Child,,,she didn't want to get off the bus for a white man.,1479.713,1486.229
+16,class/Bradford/16,213,INV,Investigator,,,uhhuh.,1486.229,1486.963
+16,class/Bradford/16,214,CHI,Child,,,and she didn't get off the bus so she was sent to jail,1486.963,1493.213
+16,class/Bradford/16,215,CHI,Child,,,and then Martin_Luther_King said,1493.213,1496.629
+16,class/Bradford/16,216,CHI,Child,,,if you don't let her go we're gonna cause trouble for the bus company,1496.629,1508.896
+16,class/Bradford/16,217,CHI,Child,,,so they made sure everybody walked from place to place instead of getting on the bus.,1508.896,1519.796
+16,class/Bradford/16,218,INV,Investigator,,,mhm.,1519.796,1521.179
+16,class/Bradford/16,219,CHI,Child,,,and that's how they ended the segregation of the Blacks getting in the back.,1521.179,1538.429
+16,class/Bradford/16,220,INV,Investigator,,,anything else.,1538.429,1540.312
+16,class/Bradford/16,221,CHI,Child,,,mhm that's it.,1540.312,1543.029
+16,class/Bradford/16,222,INV,Investigator,,,okay,1543.029,1543.645
+16,class/Bradford/16,223,INV,Investigator,,,okay,1543.645,1546.162
+16,class/Bradford/16,224,INV,Investigator,,,moving right along,1546.162,1547.429
+16,class/Bradford/16,225,INV,Investigator,,,doing a great job,1547.429,1549.295
+16,class/Bradford/16,226,INV,Investigator,,,tell me what you know about,1549.295,1550.845
+16,class/Bradford/16,227,INV,Investigator,,,we're moving into literature now,1550.845,1551.862
+16,class/Bradford/16,228,INV,Investigator,,,what do you know about Little_Red_Riding_Hood.,1551.862,1554.429
+16,class/Bradford/16,229,CHI,Child,,,I know that it's like a story told to children to amuse them,1554.429,1566.212
+16,class/Bradford/16,230,CHI,Child,,,and it has you_know a grandmother a wolf,1566.212,1578.262
+16,class/Bradford/16,231,CHI,Child,,,and it shows that the people who do crime don't always get you_know paid.,1578.262,1593.245
+16,class/Bradford/16,232,INV,Investigator,,,okay,1593.245,1593.812
+16,class/Bradford/16,233,INV,Investigator,,,anything else.,1593.812,1595.945
+16,class/Bradford/16,234,CHI,Child,,,that's it.,1595.945,1601.628
+16,class/Bradford/16,235,INV,Investigator,,,okay,1601.628,1602.412
+16,class/Bradford/16,236,INV,Investigator,,,tell me what you know about Cinderella.,1602.412,1604.712
+16,class/Bradford/16,237,CHI,Child,,,I know that she was a very hard worker,1604.712,1610.062
+16,class/Bradford/16,238,CHI,Child,,,and that she was treated very badly,1610.062,1617.878
+16,class/Bradford/16,239,CHI,Child,,,and was more of a ragged person.,1617.878,1625.028
+16,class/Bradford/16,240,INV,Investigator,,,mhm.,1625.028,1626.595
+16,class/Bradford/16,241,CHI,Child,,,and was very beautiful at the end of the story.,1626.595,1634.278
+16,class/Bradford/16,242,INV,Investigator,,,mhm.,1634.278,1634.861
+16,class/Bradford/16,243,CHI,Child,,,and it shows that your hard work always pays off.,1634.861,1644.311
+16,class/Bradford/16,244,INV,Investigator,,,anything else.,1644.311,1646.445
+16,class/Bradford/16,245,CHI,Child,,,that's it.,1646.445,1648.561
+16,class/Bradford/16,246,INV,Investigator,,,okay,1648.561,1650.078
+16,class/Bradford/16,247,INV,Investigator,,,what do you know about an orchestra.,1650.078,1652.328
+16,class/Bradford/16,248,CHI,Child,,,I know that it's like a musical piece,1652.328,1659.961
+16,class/Bradford/16,249,CHI,Child,,,it's like a band except it does classical music,1659.961,1668.778
+16,class/Bradford/16,250,CHI,Child,,,and it has a conductor to make sure that everybody does their music right.,1668.778,1685.794
+16,class/Bradford/16,251,INV,Investigator,,,mhm.,1685.794,1686.311
+16,class/Bradford/16,252,CHI,Child,,,and a orchestra is part of the opera,1686.311,1694.811
+16,class/Bradford/16,253,CHI,Child,,,and that's it.,1694.811,1699.811
+16,class/Bradford/16,254,INV,Investigator,,,nothing else about orchestra,1699.811,1701.594
+16,class/Bradford/16,255,INV,Investigator,,,okay,1701.594,1703.427
+16,class/Bradford/16,256,INV,Investigator,,,tell me what you know about Little_House_On_The_Prairie.,1703.427,1706.677
+16,class/Bradford/16,257,CHI,Child,,,it was like times of the west,1706.677,1715.977
+16,class/Bradford/16,258,CHI,Child,,,you_know people moving into the west to find gold like that,1715.977,1726.244
+16,class/Bradford/16,259,CHI,Child,,,and it was about like how people get along in those times.,1726.244,1747.477
+16,class/Bradford/16,260,INV,Investigator,,,mhm.,1747.477,1748.111
+16,class/Bradford/16,261,CHI,Child,,,and that's it.,1748.111,1750.244
+16,class/Bradford/16,262,INV,Investigator,,,nothing else about Little_House,1750.244,1751.927
+16,class/Bradford/16,263,INV,Investigator,,,okay what do you know about The_Wizard_Of_Oz.,1751.927,1755.06
+16,class/Bradford/16,264,CHI,Child,,,I know that it was more of a fictional story,1755.06,1766.877
+16,class/Bradford/16,265,CHI,Child,,,because it had witches and,1766.877,1780.043
+16,class/Bradford/16,266,CHI,Child,,,and it was about a girl having a dream,1780.043,1784.443
+16,class/Bradford/16,267,CHI,Child,,,she was in her dream and she wanted to get home from a tornado,1784.443,1790.343
+16,class/Bradford/16,268,CHI,Child,,,they had a tornado and she ended up in this dream world,1790.343,1795.427
+16,class/Bradford/16,269,CHI,Child,,,and she had to find the wizard so she could get home.,1795.427,1810.76
+16,class/Bradford/16,270,INV,Investigator,,,okay.,1810.76,1811.56
+16,class/Bradford/16,271,CHI,Child,,,and that's it.,1811.56,1813.643
+16,class/Bradford/16,272,INV,Investigator,,,okay that's it.,1813.643,1814.86
+16,class/Bradford/16,273,CHI,Child,,,mhm.,1814.86,1815.793
+16,class/Bradford/16,274,INV,Investigator,,,okay what about Pinocchio,1815.793,1817.776
+16,class/Bradford/16,275,INV,Investigator,,,what can you tell me about Pinocchio.,1817.776,1819.06
+16,class/Bradford/16,276,CHI,Child,,,I know that it was a fiction because wood can't come to life,1819.06,1827.876
+16,class/Bradford/16,277,CHI,Child,,,and that it was more like a lesson to learn in some parts of the story.,1827.876,1841.5
+16,class/Bradford/16,278,INV,Investigator,,,mhm,1839.042,1839.692
+16,class/Bradford/16,279,INV,Investigator,,,mhm.,1841.5,1842.05
+16,class/Bradford/16,280,CHI,Child,,,because he lied and every time he told a lie he'd grow into a donkey,1842.05,1850.8
+16,class/Bradford/16,281,CHI,Child,,,and his nose grew longer and longer every time he lied.,1850.8,1855.633
+16,class/Bradford/16,282,INV,Investigator,,,okay.,1855.633,1856.183
+16,class/Bradford/16,283,CHI,Child,,,so he was running off and doing all kinds of bad things like the rest of the children were and end up getting lost.,1856.183,1871.966
+16,class/Bradford/16,284,INV,Investigator,,,okay.,1871.966,1874.516
+16,class/Bradford/16,285,CHI,Child,,,and that's it.,1874.516,1876.283
+16,class/Bradford/16,286,INV,Investigator,,,nothing else about Pinocchio.,1876.283,1878.216
+16,class/Bradford/16,287,CHI,Child,,,I don't know.,1878.216,1879.666
+16,class/Bradford/16,288,INV,Investigator,,,okay,1879.666,1880.232
+16,class/Bradford/16,289,INV,Investigator,,,tell me what you know about Elvis_Presley.,1880.232,1882.766
+16,class/Bradford/16,290,CHI,Child,,,I know that he was like a gospel and a rock singer,1882.766,1889.816
+16,class/Bradford/16,291,CHI,Child,,,because he made some gospel,1889.816,1894.749
+16,class/Bradford/16,292,CHI,Child,,,and he was like a Blues singer,1894.749,1897.799
+16,class/Bradford/16,293,CHI,Child,,,because he sang songs like Hound_Dog or some songs like that,1897.799,1909.532
+16,class/Bradford/16,294,CHI,Child,,,and he was like a smoker,1909.532,1918.465
+16,class/Bradford/16,295,CHI,Child,,,and he died from smoking.,1918.465,1923.332
+16,class/Bradford/16,296,INV,Investigator,,,anything else.,1923.332,1926.115
+16,class/Bradford/16,297,CHI,Child,,,that's it.,1926.115,1931.015
+16,class/Bradford/16,298,INV,Investigator,,,okay,1931.015,1931.532
+16,class/Bradford/16,299,INV,Investigator,,,tell me what you know about Alice_In_Wonderland.,1931.532,1934.865
+16,class/Bradford/16,300,CHI,Child,,,I know that it was like a dream world,1934.865,1957.165
+16,class/Bradford/16,301,CHI,Child,,,because the girl like drifted off every time she went in the Wonderland,1957.165,1969.265
+16,class/Bradford/16,302,CHI,Child,,,and was like,1969.265,1978.632
+16,class/Bradford/16,303,CHI,Child,,,you_know she acted like she didn't know nothing about it,1978.632,1989.948
+16,class/Bradford/16,304,CHI,Child,,,and so she was like real scared and stuff.,1989.948,1997.714
+16,class/Bradford/16,305,INV,Investigator,,,okay,1997.714,1998.314
+16,class/Bradford/16,306,INV,Investigator,,,all done.,1998.314,2002.247
+16,class/Bradford/16,307,CHI,Child,,,and that's it.,2001.5,2003.097
+16,class/Bradford/16,308,INV,Investigator,,,that's it,2003.097,2003.83
+16,class/Bradford/16,309,INV,Investigator,,,okay what about Peter_Pan,2003.83,2005.63
+16,class/Bradford/16,310,INV,Investigator,,,what do you know about him.,2005.63,2006.663
+16,class/Bradford/16,311,CHI,Child,,,he's like a nymph like a fairy nymph or something like that,2006.663,2015.197
+16,class/Bradford/16,312,CHI,Child,,,because he can fly,2015.197,2017.897
+16,class/Bradford/16,313,CHI,Child,,,and he got all kinds of special powers,2017.897,2021.747
+16,class/Bradford/16,314,CHI,Child,,,and he uses his imagination to do all the flying,2021.747,2035.18
+16,class/Bradford/16,315,CHI,Child,,,he tells the little kids to just think about flying,2035.18,2039.213
+16,class/Bradford/16,316,CHI,Child,,,and then they'll start flying.,2039.213,2041.563
+16,class/Bradford/16,317,INV,Investigator,,,mhm.,2041.563,2042.696
+16,class/Bradford/16,318,CHI,Child,,,so that's how Peter_Pan was made,2042.296,2054.98
+16,class/Bradford/16,319,CHI,Child,,,that's.,2054.98,2057.3
+16,class/Bradford/16,320,INV,Investigator,,,anything else.,2057.3,2058.133
+16,class/Bradford/16,321,CHI,Child,,,unhunh.,2058.133,2060.033
+16,class/Bradford/16,322,INV,Investigator,,,okay what about ballet,2060.033,2061.916
+16,class/Bradford/16,323,INV,Investigator,,,tell me what you know about that.,2061.916,2063.033
+16,class/Bradford/16,324,CHI,Child,,,I know that it's for elegant people,2063.033,2071.849
+16,class/Bradford/16,325,CHI,Child,,,and you have to have like real good balance and strong legs.,2071.849,2082.933
+16,class/Bradford/16,326,INV,Investigator,,,mhm,2082.933,2083.433
+16,class/Bradford/16,327,INV,Investigator,,,anything else.,2083.433,2086.649
+16,class/Bradford/16,328,CHI,Child,,,and be able to write plays and things like that,2086.649,2099.766
+16,class/Bradford/16,329,CHI,Child,,,and that's it.,2099.766,2105.383
+16,class/Bradford/16,330,INV,Investigator,,,that's it,2105.383,2106.383
+16,class/Bradford/16,331,INV,Investigator,,,okay,2106.383,2107.283
+16,class/Bradford/16,332,INV,Investigator,,,what do you know about jazz.,2107.283,2109.333
+16,class/Bradford/16,333,CHI,Child,,,I know that it is mostly played by Blacks,2109.333,2119.766
+16,class/Bradford/16,334,CHI,Child,,,and it is sung by B_B_King and Charles_Ray,2119.766,2131.833
+16,class/Bradford/16,335,CHI,Child,,,it is sort_of in a group with Blues.,2131.833,2146.649
+16,class/Bradford/16,336,INV,Investigator,,,mhm.,2146.649,2149.483
+16,class/Bradford/16,337,CHI,Child,,,and it sort_of brings you down,2149.483,2163.299
+16,class/Bradford/16,338,CHI,Child,,,it uses instruments like the guitar and the saxophone.,2163.299,2173.382
+16,class/Bradford/16,339,INV,Investigator,,,anything else.,2173.382,2178.032
+16,class/Bradford/16,340,CHI,Child,,,unhunh.,2178.032,2179.632
+16,class/Bradford/16,341,INV,Investigator,,,okay,2179.632,2180.449
+16,class/Bradford/16,342,INV,Investigator,,,tell me what you know about Maya_Angelou.,2180.449,2182.599
+16,class/Bradford/16,343,CHI,Child,,,he was a very good artist that made the pictures like Picasso.,2182.599,2193.532
+16,class/Bradford/16,344,INV,Investigator,,,anything else about Maya_Angelou.,2193.532,2199.999
+16,class/Bradford/16,345,CHI,Child,,,that's it.,2199.999,2208.549
+16,class/Bradford/16,346,INV,Investigator,,,okay,2208.549,2209.115
+16,class/Bradford/16,347,INV,Investigator,,,tell me what you know about the Blues.,2209.115,2211.282
+16,class/Bradford/16,348,CHI,Child,,,it brings you down.,2211.282,2217.399
+16,class/Bradford/16,349,INV,Investigator,,,mhm.,2217.199,2217.882
+16,class/Bradford/16,350,CHI,Child,,,and it sometimes make you wanna,2217.382,2230.9
+16,class/Bradford/16,351,CHI,Child,,,it makes you think about something about what's happened to you.,2230.9,2238.683
+16,class/Bradford/16,352,INV,Investigator,,,mhm.,2238.683,2240.55
+16,class/Bradford/16,353,CHI,Child,,,like you get fired from your job or you just got a divorce or something like that.,2240.55,2256.866
+16,class/Bradford/16,354,INV,Investigator,,,anything else,2256.866,2259.916
+16,class/Bradford/16,355,INV,Investigator,,,okay what do you know about Michael_Jackson.,2259.916,2263.132
+16,class/Bradford/16,356,CHI,Child,,,I know that he has many brothers and sisters in music.,2263.132,2274.616
+16,class/Bradford/16,357,INV,Investigator,,,mhm.,2274.616,2276.932
+16,class/Bradford/16,358,CHI,Child,,,and was accused of sexual harassment.,2276.932,2286.732
+16,class/Bradford/16,359,INV,Investigator,,,mhm.,2286.732,2289.566
+16,class/Bradford/16,360,CHI,Child,,,and was pretty good at making music.,2289.566,2306.566
+16,class/Bradford/16,361,INV,Investigator,,,anything else.,2306.566,2309.366
+16,class/Bradford/16,362,CHI,Child,,,that's it.,2309.366,2314.782
+16,class/Bradford/16,363,INV,Investigator,,,okay,2314.782,2315.349
+16,class/Bradford/16,364,INV,Investigator,,,tell me what you know about B_B_King.,2315.349,2317.865
+16,class/Bradford/16,365,CHI,Child,,,he was one of the Blues and jazz singers.,2317.865,2326.115
+16,class/Bradford/16,366,INV,Investigator,,,mhm.,2326.115,2326.849
+16,class/Bradford/16,367,CHI,Child,,,and his honors in Memphis on Beale_Street.,2326.849,2332.349
+16,class/Bradford/16,368,INV,Investigator,,,mhm.,2332.349,2337.182
+16,class/Bradford/16,369,CHI,Child,,,and has made many musical pieces,2337.182,2346.132
+16,class/Bradford/16,370,CHI,Child,,,and that's it.,2346.132,2355.848
+16,class/Bradford/16,371,INV,Investigator,,,that's it,2355.848,2356.298
+16,class/Bradford/16,372,INV,Investigator,,,okay what do you know about Motown,2356.298,2358.515
+16,class/Bradford/16,373,INV,Investigator,,,you wanna stretch or something,2358.515,2360.482
+16,class/Bradford/16,374,INV,Investigator,,,okay,2360.482,2361.765
+16,class/Bradford/16,375,INV,Investigator,,,Motown.,2361.765,2362.848
+16,class/Bradford/16,376,CHI,Child,,,I know it's in Detroit.,2362.848,2368.648
+16,class/Bradford/16,377,INV,Investigator,,,mhm.,2368.648,2369.198
+16,class/Bradford/16,378,CHI,Child,,,it's in Detroit,2369.198,2370.598
+16,class/Bradford/16,379,CHI,Child,,,and it's one of the music producers that stars off records and has one of the most records sold,2370.598,2391.131
+16,class/Bradford/16,380,CHI,Child,,,and many people have started their music career in Motown.,2391.131,2398.981
+16,class/Bradford/16,381,INV,Investigator,,,mhm,2398.981,2399.531
+16,class/Bradford/16,382,INV,Investigator,,,anything else.,2399.531,2402.314
+16,class/Bradford/16,383,CHI,Child,,,and that's it.,2402.314,2403.297
+16,class/Bradford/16,384,INV,Investigator,,,okay,2403.297,2403.931
+16,class/Bradford/16,385,INV,Investigator,,,what do you know about Roots.,2403.931,2405.997
+16,class/Bradford/16,386,CHI,Child,,,I know that it's a movie about Blacks during slavery and coming from the slave trade.,2405.997,2421.081
+16,class/Bradford/16,387,INV,Investigator,,,anything else.,2421.081,2425.081
+16,class/Bradford/16,388,CHI,Child,,,it was a movie about how the people get in North_America,2425.081,2441.664
+16,class/Bradford/16,389,CHI,Child,,,and how many other Blacks trapped their fellow members and took them back to be slaves with them.,2441.664,2458.797
+16,class/Bradford/16,390,INV,Investigator,,,anything else.,2458.797,2468.78
+16,class/Bradford/16,391,CHI,Child,,,unhunh.,2468.78,2470.23
+16,class/Bradford/16,392,INV,Investigator,,,okay,2470.23,2470.813
+16,class/Bradford/16,393,INV,Investigator,,,tell me what you know about Aretha_Franklin.,2470.813,2473.763
+16,class/Bradford/16,394,CHI,Child,,,she is one of the most popular music divas.,2473.763,2485.013
+16,class/Bradford/16,395,INV,Investigator,,,mhm.,2485.013,2488.079
+16,class/Bradford/16,396,CHI,Child,,,and sings jazz,2488.079,2516.046
+16,class/Bradford/16,397,CHI,Child,,,that's it.,2516.046,2522.479
+16,class/Bradford/16,398,INV,Investigator,,,that's it,2522.479,2523.212
+16,class/Bradford/16,399,INV,Investigator,,,what do you know about Sammy_Davis_Junior.,2523.212,2525.779
+16,class/Bradford/16,400,CHI,Child,,,I think he was a musician too.,2525.779,2548.329
+16,class/Bradford/16,401,INV,Investigator,,,okay.,2548.329,2549.495
+16,class/Bradford/16,402,CHI,Child,,,that's all I know.,2549.495,2555.612
+16,class/Bradford/16,403,INV,Investigator,,,okay,2555.612,2556.362
+16,class/Bradford/16,404,INV,Investigator,,,what do you know about The_Color_Purple.,2556.362,2558.428
+16,class/Bradford/16,405,CHI,Child,,,it is about how two sisters got along during times of slavery,2558.428,2581.712
+16,class/Bradford/16,406,CHI,Child,,,and they have their father that the father treated them,2581.712,2594.512
+16,class/Bradford/16,407,CHI,Child,,,and that's it.,2594.512,2600.145
+16,class/Bradford/16,408,INV,Investigator,,,nothing else about The_Color_Purple,2600.145,2601.695
+16,class/Bradford/16,409,INV,Investigator,,,okay this is the last section,2601.695,2604.678
+16,class/Bradford/16,410,INV,Investigator,,,now we're gonna talk about things that happened in the news,2604.678,2607.612
+16,class/Bradford/16,411,INV,Investigator,,,okay what do you know about Bill_Clinton.,2607.612,2610.295
+16,class/Bradford/16,412,CHI,Child,,,I know that he was almost impeached,2610.295,2618.245
+16,class/Bradford/16,413,CHI,Child,,,because he had an affair with Monica_Lewinsky during his presidency.,2618.245,2626.828
+16,class/Bradford/16,414,INV,Investigator,,,mhm.,2626.828,2627.445
+16,class/Bradford/16,415,CHI,Child,,,so he had to be impeached because of it,2627.445,2636.861
+16,class/Bradford/16,416,CHI,Child,,,and to me he was a pretty good president.,2636.861,2647.095
+16,class/Bradford/16,417,INV,Investigator,,,mhm.,2647.095,2648.028
+16,class/Bradford/16,418,CHI,Child,,,I know that he came from Arkansas,2648.028,2654.678
+16,class/Bradford/16,419,CHI,Child,,,and that's it.,2654.678,2659.445
+16,class/Bradford/16,420,INV,Investigator,,,that's all for Bill_Clinton,2659.445,2661.295
+16,class/Bradford/16,421,INV,Investigator,,,okay what do you know about Elian_Gonzalez.,2661.295,2664.045
+16,class/Bradford/16,422,CHI,Child,,,I know that he was taken,2664.045,2672.095
+16,class/Bradford/16,423,CHI,Child,,,he was in the airplane crash and was found and taken to his relatives,2672.095,2681.128
+16,class/Bradford/16,424,CHI,Child,,,and they were arguing over him,2681.128,2685.911
+16,class/Bradford/16,425,CHI,Child,,,they argued over him.,2685.911,2689.311
+16,class/Bradford/16,426,INV,Investigator,,,mhm.,2689.311,2690.361
+16,class/Bradford/16,427,CHI,Child,,,he got sent back with his dad instead of his aunt and cousins.,2690.361,2704.061
+16,class/Bradford/16,428,INV,Investigator,,,okay.,2704.061,2706.045
+16,class/Bradford/16,429,CHI,Child,,,and his mother died in the plane crash,2706.045,2711.561
+16,class/Bradford/16,430,CHI,Child,,,and that's it.,2711.561,2713.645
+16,class/Bradford/16,431,INV,Investigator,,,and that's all for Elian,2713.645,2715.445
+16,class/Bradford/16,432,INV,Investigator,,,what about the Columbine shooting,2715.445,2717.628
+16,class/Bradford/16,433,INV,Investigator,,,what do you know about that.,2717.628,2718.478
+16,class/Bradford/16,434,CHI,Child,,,I know that it was done by a little boy,2718.478,2723.111
+16,class/Bradford/16,435,CHI,Child,,,and was caused by the bullying of other children.,2723.111,2736.261
+16,class/Bradford/16,436,INV,Investigator,,,mhm.,2736.261,2736.928
+16,class/Bradford/16,437,CHI,Child,,,and that's it.,2736.928,2747.728
+16,class/Bradford/16,438,INV,Investigator,,,okay,2747.728,2748.294
+16,class/Bradford/16,439,INV,Investigator,,,what about the Oklahoma_City bombing.,2748.294,2750.478
+16,class/Bradford/16,440,CHI,Child,,,it was done in a bank,2750.478,2758.494
+16,class/Bradford/16,441,CHI,Child,,,and they had to use many police dogs to find the people under all the rubbish.,2758.494,2768.577
+16,class/Bradford/16,442,INV,Investigator,,,that's it,2768.577,2772.527
+16,class/Bradford/16,443,INV,Investigator,,,anything else.,2772.527,2774.393
+16,class/Bradford/16,444,CHI,Child,,,that's it.,2774.393,2778.594
+16,class/Bradford/16,445,INV,Investigator,,,that's it,2778.594,2779.194
+16,class/Bradford/16,446,INV,Investigator,,,what do you know about Princess_Diana.,2779.194,2781.694
+16,class/Bradford/16,447,CHI,Child,,,she died in a car crash.,2781.694,2789.177
+16,class/Bradford/16,448,INV,Investigator,,,mhm.,2789.177,2791.21
+16,class/Bradford/16,449,CHI,Child,,,and was just about to get married.,2791.21,2804.644
+16,class/Bradford/16,450,INV,Investigator,,,mhm.,2804.644,2811.627
+16,class/Bradford/16,451,CHI,Child,,,she was the princess in England,2811.627,2816.993
+16,class/Bradford/16,452,CHI,Child,,,and that's it.,2816.993,2823.243
+16,class/Bradford/16,453,INV,Investigator,,,okay,2823.243,2823.827
+16,class/Bradford/16,454,INV,Investigator,,,what do you know about Al_Gore.,2823.827,2825.81
+16,class/Bradford/16,455,CHI,Child,,,I know that he ran for president,2825.81,2832.16
+16,class/Bradford/16,456,CHI,Child,,,and he kept up the fight until around November or around that time,2832.16,2848.176
+16,class/Bradford/16,457,CHI,Child,,,and that it was a real close vote for him and George_Bush,2848.176,2863.959
+16,class/Bradford/16,458,CHI,Child,,,and that some of the ballots were rigged in Florida,2863.959,2875.642
+16,class/Bradford/16,459,CHI,Child,,,and that's it.,2875.642,2882.342
+16,class/Bradford/16,460,INV,Investigator,,,that's it,2882.342,2882.975
+16,class/Bradford/16,461,INV,Investigator,,,what do you know about the Jonbenet_Ramsey case.,2882.975,2886.225
+16,class/Bradford/16,462,CHI,Child,,,I know that many of the people used like psychics to get through that case,2886.225,2900.625
+16,class/Bradford/16,463,CHI,Child,,,and then they thought it was their parents,2900.625,2908.141
+16,class/Bradford/16,464,CHI,Child,,,and she was like a,2908.141,2915.4
+16,class/Bradford/16,465,CHI,Child,,,their daughter was like a superstar like a model.,2915.4,2920.066
+16,class/Bradford/16,466,INV,Investigator,,,mhm.,2920.066,2920.8
+16,class/Bradford/16,467,CHI,Child,,,and was raped and killed in their attic.,2920.8,2938.633
+16,class/Bradford/16,468,INV,Investigator,,,anything else.,2938.633,2941.433
+16,class/Bradford/16,469,CHI,Child,,,that's it.,2941.433,2942.566
+16,class/Bradford/16,470,INV,Investigator,,,okay mhm,2942.566,2944.366
+16,class/Bradford/16,471,INV,Investigator,,,tell me what you know about Steven_Spielberg.,2944.366,2946.699
+16,class/Bradford/16,472,CHI,Child,,,he made Jurassic_Park one and two,2946.699,2952.349
+16,class/Bradford/16,473,CHI,Child,,,and is one of the best directors and producers in the movie making business,2952.349,2961.232
+16,class/Bradford/16,474,CHI,Child,,,and has been nominated and won many many Academy_Awards.,2961.232,2968.465
+16,class/Bradford/16,475,INV,Investigator,,,anything else.,2968.465,2976.498
+16,class/Bradford/16,476,CHI,Child,,,that's it.,2976.498,2977.998
+16,class/Bradford/16,477,INV,Investigator,,,that's it.,2977.998,2978.915
+16,class/Bradford/16,478,CHI,Child,,,mhm.,2978.915,2979.665
+16,class/Bradford/16,479,INV,Investigator,,,what about John_F_Kennedy_Junior.,2979.665,2981.565
+16,class/Bradford/16,480,CHI,Child,,,he died in a plane crash,2981.565,2988.181
+16,class/Bradford/16,481,CHI,Child,,,he was like riding his plane,2988.181,2992.664
+16,class/Bradford/16,482,CHI,Child,,,because he had just taken lessons,2992.664,3001.281
+16,class/Bradford/16,483,CHI,Child,,,and it was real foggy so he couldn't see,3001.281,3006.114
+16,class/Bradford/16,484,CHI,Child,,,and he crashed.,3006.114,3009.247
+16,class/Bradford/16,485,INV,Investigator,,,mhm,3009.247,3012.647
+16,class/Bradford/16,486,INV,Investigator,,,anything else.,3012.647,3015.83
+16,class/Bradford/16,487,CHI,Child,,,that's it.,3015.83,3017.58
+16,class/Bradford/16,488,INV,Investigator,,,okay,3017.58,3018.097
+16,class/Bradford/16,489,INV,Investigator,,,Mother_Theresa,3018.097,3019.313
+16,class/Bradford/16,490,INV,Investigator,,,what do you know about her.,3019.313,3020.347
+16,class/Bradford/16,491,CHI,Child,,,she died because she got too old,3020.347,3026.547
+16,class/Bradford/16,492,CHI,Child,,,and she took care of all the children in her country.,3026.547,3032.097
+16,class/Bradford/16,493,INV,Investigator,,,mhm.,3032.097,3034.797
+16,class/Bradford/16,494,CHI,Child,,,and was like a special healer,3034.797,3039.747
+16,class/Bradford/16,495,CHI,Child,,,and was a religious nun like that,3039.747,3045.613
+16,class/Bradford/16,496,CHI,Child,,,and that's it.,3045.613,3050.413
+16,class/Bradford/16,497,INV,Investigator,,,okay,3050.413,3051.23
+16,class/Bradford/16,498,INV,Investigator,,,this is the last bit,3051.23,3052.78
+16,class/Bradford/16,499,INV,Investigator,,,what do you know about Bill_Cosby.,3052.78,3056.247
+16,class/Bradford/16,500,CHI,Child,,,I know that he has starred in movies and shows.,3056.247,3075.163
+16,class/Bradford/16,501,INV,Investigator,,,mhm.,3075.163,3077.513
+16,class/Bradford/16,502,CHI,Child,,,and his son died in a car crash.,3077.513,3082.03
+16,class/Bradford/16,503,INV,Investigator,,,mhm,3082.03,3082.496
+16,class/Bradford/16,504,INV,Investigator,,,anything else.,3082.496,3093.196
+16,class/Bradford/16,505,CHI,Child,,,that's it.,3093.196,3097.046
+16,class/Bradford/16,506,INV,Investigator,,,okay what about Whitney_Houston.,3097.046,3099.379
+16,class/Bradford/16,507,CHI,Child,,,she is married to Bobby_Brown,3099.379,3106.996
+16,class/Bradford/16,508,CHI,Child,,,and was sent to jail for possession of drugs.,3106.996,3114.746
+16,class/Bradford/16,509,INV,Investigator,,,mhm.,3114.746,3117.362
+16,class/Bradford/16,510,CHI,Child,,,and many people say that she is on drugs,3117.362,3123.546
+16,class/Bradford/16,511,CHI,Child,,,and her singing isn't so good anymore.,3123.546,3129.362
+16,class/Bradford/16,512,INV,Investigator,,,mhm.,3129.362,3132.328
+16,class/Bradford/16,513,CHI,Child,,,and that's it.,3132.328,3135.762
+16,class/Bradford/16,514,INV,Investigator,,,okay,3135.762,3136.495
+16,class/Bradford/16,515,INV,Investigator,,,Jesse_Jackson.,3136.495,3137.712
+16,class/Bradford/16,516,CHI,Child,,,he was caught in another affair with a woman and was paying her to keep quiet.,3137.712,3151.595
+16,class/Bradford/16,517,INV,Investigator,,,mhm.,3151.595,3155.812
+16,class/Bradford/16,518,CHI,Child,,,and he was part of the Civil_Rights_Act,3155.812,3168.578
+16,class/Bradford/16,519,CHI,Child,,,and is a preacher.,3168.578,3170.578
+16,class/Bradford/16,520,INV,Investigator,,,okay,3170.578,3172.211
+16,class/Bradford/16,521,INV,Investigator,,,anything else.,3172.211,3173.211
+16,class/Bradford/16,522,CHI,Child,,,that's it.,3173.211,3174.611
+16,class/Bradford/16,523,INV,Investigator,,,okay what about Michael_Jordan.,3174.611,3176.777
+16,class/Bradford/16,524,CHI,Child,,,he is one of the greatest basketball players to play and,3176.777,3188.477
+16,class/Bradford/16,525,CHI,Child,,,and when he was with the Chicago_Bulls he won the championship about five times.,3188.477,3201.01
+16,class/Bradford/16,526,INV,Investigator,,,mhm.,3201.01,3201.86
+16,class/Bradford/16,527,CHI,Child,,,and retired for millions of dollars.,3201.86,3209.81
+16,class/Bradford/16,528,INV,Investigator,,,okay.,3209.81,3211.143
+16,class/Bradford/16,529,CHI,Child,,,and played baseball for a while to fulfill his dad's dream,3211.143,3220.243
+16,class/Bradford/16,530,CHI,Child,,,because his daddy died.,3220.243,3225.643
+16,class/Bradford/16,531,INV,Investigator,,,mhm.,3225.643,3226.276
+16,class/Bradford/16,532,CHI,Child,,,and that's it.,3226.276,3230.576
+16,class/Bradford/16,533,INV,Investigator,,,okay Rodney_King,3230.576,3231.91
+16,class/Bradford/16,534,INV,Investigator,,,what do you know about Rodney_King,3231.91,3233.326
+16,class/Bradford/16,535,INV,Investigator,,,never heard of him.,3233.326,3249.026
+16,class/Bradford/16,536,CHI,Child,,,unhunh.,3249.026,3250.709
+16,class/Bradford/16,537,INV,Investigator,,,okay,3250.709,3251.609
+16,class/Bradford/16,538,INV,Investigator,,,what do you know about the Million_Man_March.,3251.609,3254.059
+16,class/Bradford/16,539,CHI,Child,,,it was part of the civil rights march started by Martin_Luther_King,3254.059,3267.492
+16,class/Bradford/16,540,CHI,Child,,,and went from Montgomery to Washington_D_C.,3267.492,3272.592
+16,class/Bradford/16,541,INV,Investigator,,,anything else.,3272.592,3277.159
+16,class/Bradford/16,542,CHI,Child,,,that's it.,3277.159,3281.509
+16,class/Bradford/16,543,INV,Investigator,,,okay Moesha.,3281.509,3282.842
+16,class/Bradford/16,544,CHI,Child,,,it's a show about the life of a college student,3282.842,3293.126
+16,class/Bradford/16,545,CHI,Child,,,and it's like a comedy and a reality show.,3293.126,3301.809
+16,class/Bradford/16,546,INV,Investigator,,,mhm anything else.,3301.809,3304.909
+16,class/Bradford/16,547,CHI,Child,,,and it's made by Brandy,3304.909,3308.225
+16,class/Bradford/16,548,CHI,Child,,,Brandy a music person.,3308.225,3314.775
+16,class/Bradford/16,549,INV,Investigator,,,anything else.,3314.775,3316.625
+16,class/Bradford/16,550,CHI,Child,,,that's it.,3316.625,3317.692
+16,class/Bradford/16,551,INV,Investigator,,,Spike_Lee.,3317.692,3319.459
+16,class/Bradford/16,552,CHI,Child,,,he played in a_lot_of movies and made some too.,3319.459,3336.575
+16,class/Bradford/16,553,INV,Investigator,,,mhm.,3336.575,3338.325
+16,class/Bradford/16,554,CHI,Child,,,that's it.,3338.325,3343.759
+16,class/Bradford/16,555,INV,Investigator,,,that's it,3343.759,3344.392
+16,class/Bradford/16,556,INV,Investigator,,,Ebonics,3344.392,3345.559
+16,class/Bradford/16,557,INV,Investigator,,,what do you know about Ebonics.,3345.559,3347.209
+16,class/Bradford/16,558,CHI,Child,,,it's like another language,3347.209,3350.759
+16,class/Bradford/16,559,CHI,Child,,,an incorrect language of English,3350.759,3355.909
+16,class/Bradford/16,560,CHI,Child,,,and it's like slang,3355.909,3359.492
+16,class/Bradford/16,561,CHI,Child,,,and it is like used by,3359.492,3380.3
+16,class/Bradford/16,562,CHI,Child,,,some people say it's used by mostly Blacks but I think it's usually by everybody because all children don't speak correct English.,3380.3,3395.316
+16,class/Bradford/16,563,INV,Investigator,,,mhm,3395.316,3395.916
+16,class/Bradford/16,564,INV,Investigator,,,anything else.,3395.916,3398.4
+16,class/Bradford/16,565,CHI,Child,,,that's it.,3398.4,3401.366
+16,class/Bradford/16,566,INV,Investigator,,,okay last one,3401.366,3402.6
+16,class/Bradford/16,567,INV,Investigator,,,O_J_Simpson,3402.6,3403.8
+16,class/Bradford/16,568,INV,Investigator,,,tell me what you know about him.,3403.8,3404.916
+16,class/Bradford/16,569,CHI,Child,,,he married a white woman,3404.916,3407.116
+16,class/Bradford/16,570,CHI,Child,,,and he was accused of killing her,3407.116,3412.049
+16,class/Bradford/16,571,CHI,Child,,,and he won the case,3412.049,3417.0
+16,class/Bradford/16,572,CHI,Child,,,and he used to play football.,3417.0,3418.699
+16,class/Bradford/16,573,INV,Investigator,,,mhm,3418.699,3421.299
+16,class/Bradford/16,574,INV,Investigator,,,anything else.,3421.299,3422.499
+16,class/Bradford/16,575,CHI,Child,,,they made a movie on what they thought happened to his wife,3422.499,3436.965
+16,class/Bradford/16,576,CHI,Child,,,and that's it.,3436.965,3440.949
+16,class/Bradford/16,577,INV,Investigator,,,that's it,3440.949,3441.549
+16,class/Bradford/16,578,INV,Investigator,,,okay,3441.549,3442.615
+16,class/Bradford/16,579,INV,Investigator,,,and that's it,3442.615,3443.665
+16,class/Bradford/16,580,INV,Investigator,,,did we run out of tape,3443.665,3446.665
+16,class/Bradford/16,581,INV,Investigator,,,nope looks good.,3446.665,3449.282
