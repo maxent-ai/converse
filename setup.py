@@ -21,7 +21,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 REQUIRES = [i.strip() for i in open("requirements.txt").readlines()]
 
 kwargs = {
-    'name': 'converse',
+    'name': 'pyconverse',
     'version': version,
     'description': 'Coversational Transcript Analysis using various NLP techniques',
     'long_description': readme,

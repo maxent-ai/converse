@@ -1,5 +1,5 @@
 [metadata]
-name = 'Converse'
+name = 'pyconverse'
 version = '0.0.1'
 description = 'Coversational Transcript Analysis using various NLP techniques'
 author = 'AnjanaRita'
