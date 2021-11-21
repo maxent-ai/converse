@@ -1,10 +1,10 @@
 [run]
 source =
-    converse
+    pyconverse
     tests
 branch = True
 omit =
-    converse/cli.py
+    pyconverse/cli.py
 
 [report]
 exclude_lines =

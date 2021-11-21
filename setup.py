@@ -7,13 +7,13 @@ from io import open
 
 from setuptools import find_packages, setup
 
-with open('converse/__init__.py', 'r') as f:
+with open('pyconverse/__init__.py', 'r') as f:
     for line in f:
         if line.startswith('__version__'):
             version = line.strip().split('=')[1].strip(' \'"')
             break
     else:
-        version = '0.0.1'
+        version = '0.1.0'
 
 with open('README.md', 'r', encoding='utf-8') as f:
     readme = f.read()

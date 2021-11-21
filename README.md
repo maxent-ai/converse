@@ -6,7 +6,7 @@
 ### Installation 
 
 ```
-pip install converse
+pip install pyconverse
 ```
 
 ### Usage
