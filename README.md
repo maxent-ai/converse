@@ -1,6 +1,8 @@
 # PyConverse
 -----------
 
+![](assets/PyConverse.png)
+
 ## Let me try first
 
 ### Installation 
