@@ -7,6 +7,7 @@ from .utils import load_spacy
 
 nlp = load_spacy()
 
+
 @attr.s
 class SpeakerStats:
     """
@@ -16,52 +17,54 @@ class SpeakerStats:
     ---------
     data: pd.Dataframe
         Pass the trascript in the dataframe format
-    
+
     speaker: str
         pass the column name which represent speaker name/id in transcript dataframe
 
     utterance: str
         pass the column name which represent utterance in transcript dataframe
 
-    
+
 
     """
     data = attr.ib()
     speaker = attr.ib(default='speaker')
     utterance = attr.ib(default='utterance')
-    
+
     def __attrs_post_init__(self):
         columns = self.data.columns.tolist()
-        
+
         if self.speaker not in columns:
             raise ValueError("Please pass proper speaker column")
-        
+
         if self.utterance not in columns:
             raise ValueError("Please pass proper speaker column")
-            
-    
+
     def get_stats(self, n_topic=2):
         """
+        Returns Speaker stats 
+
         parameters
         ----------
         n_topic: int
             Define the maximum number of speaker stat you want to identify.
-        
+
         Returns
         -------
         return_dict: dict
             Dictionary of user stats.
         """
 
-        self.data['speaker_stats'] = self.data[self.utterance].apply(self.get_text_summary)
+        self.data['speaker_stats'] = self.data[self.utterance].apply(
+            self.get_text_summary)
         return_dict = {}
         for spk, df in self.data.groupby(by=self.speaker):
-            df = df[~df.speaker_stats.isin([None,"Informal, personal"])]
+            df = df[~df.speaker_stats.isin([None, "Informal, personal"])]
             _ = Counter(df.speaker_stats.tolist()).most_common(n_topic)
-            _ = [i for (i,j) in _]
+            _ = [i for (i, j) in _]
             return_dict[spk] = _
         return return_dict
-    
+
     def _tag_stats(self, tagged_input):
         num_pronouns = 0
         num_prp = 0
@@ -79,19 +82,19 @@ class SpeakerStats:
                 num_prp += 1
 
             if tag in ['DT']:
-                num_articles += 1            
+                num_articles += 1
 
             if tag in ['VBD', 'VBN']:
                 num_past += 1
 
             if tag in ['MD']:
-                num_future +=1
+                num_future += 1
 
             if tag in ['IN']:
-                num_prep+=1
+                num_prep += 1
 
         return_dict = dict(num_pronouns=num_pronouns, num_prp=num_prp, num_articles=num_articles,
-                          num_past=num_past, num_future=num_future, num_prep=num_prep)
+                           num_past=num_past, num_future=num_future, num_prep=num_prep)
         return return_dict
 
     def _word_counter(self, text):
@@ -106,7 +109,7 @@ class SpeakerStats:
         for i in text.sents:
             c = self._word_counter(i)
             count_list.append(c)
-        return round(np.mean(np.array(count_list)),2)
+        return round(np.mean(np.array(count_list)), 2)
 
     def _count_negation(self, text):
         temp = [tok for tok in text if tok.dep_ == 'neg']
@@ -118,8 +121,8 @@ class SpeakerStats:
         stats['num_words'] = self._word_counter(text)
         stats['wps'] = self._avg_words_per_sentence(text)
         stats['num_negations'] = self._count_negation(text)
-        return stats   
-    
+        return stats
+
     def get_text_summary(self, text):
         t = self.get_lingustic_stats(text)
         temp = self._get_correlation(t)
@@ -128,7 +131,7 @@ class SpeakerStats:
         else:
             temp = None
         return temp
-    
+
     def _get_correlation(self, data, num_words_threshold=100, wps_threshold=20):
         informative_correlates = []
         psychological_correlates = {}
@@ -143,7 +146,8 @@ class SpeakerStats:
         psychological_correlates["num_negations"] = "Inhibition"
         # Set thresholds
         if data['num_words'] > num_words_threshold:
-            informative_correlates.append(psychological_correlates['num_words'])
+            informative_correlates.append(
+                psychological_correlates['num_words'])
 
         if data['wps'] > wps_threshold:
             informative_correlates.append(psychological_correlates['wps'])
@@ -152,11 +156,12 @@ class SpeakerStats:
 
         all_visited = False
         while(len(informative_correlates) < 3):
-            for index,(i,j) in enumerate(d.items()):
-                if j ==0:
+            for index, (i, j) in enumerate(d.items()):
+                if j == 0:
                     continue
-                if i == 'num_prep' and d['num_pronouns'] == d['num_prep'] and len(informative_correlates)==2:
-                    informative_correlates.append(psychological_correlates['num_pronouns'])
+                if i == 'num_prep' and d['num_pronouns'] == d['num_prep'] and len(informative_correlates) == 2:
+                    informative_correlates.append(
+                        psychological_correlates['num_pronouns'])
                 elif i not in ['num_words', 'wps']:
                     informative_correlates.append(psychological_correlates[i])
             if index+1 == len(d):

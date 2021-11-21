@@ -5,6 +5,7 @@ from nltk.corpus import wordnet as wn
 
 classifier = load_zeroshot_model()
 
+
 @attr.s
 class ZeroShotTopicFinder:
     """
@@ -17,12 +18,13 @@ class ZeroShotTopicFinder:
     """
 
     model = attr.ib(default='all-MiniLM-L6-v2')
-    
+
     def __attrs_post_init__(self):
         self.model = KeyBERT(self.model)
-    
+
     def find_topic(self, text, n_topic=2):
         """
+        Infer the topic in a given string.
         parameters
         ----------
 
@@ -41,20 +43,21 @@ class ZeroShotTopicFinder:
         """
         keyword = self.get_keyword(text)
         labels = self.get_parent_words(keyword)
-        prediction = classifier(text,candidate_labels=labels)
+        prediction = classifier(text, candidate_labels=labels)
         labels = prediction['labels'][:n_topic]
         labels = [i.replace("_", ' ').title() for i in labels]
         return labels
-        
+
     def get_keyword(self, text):
         kw = [i[0] for i in self.model.extract_keywords(text)]
         return kw
-    
+
     def get_parent_words(self, keywords):
         parents = []
         for kw in keywords:
             sym = wn.synsets(kw)[:2]
-            parents += [j.name().split('.') for i in sym for j in i.hypernyms()]
+            parents += [j.name().split('.')
+                        for i in sym for j in i.hypernyms()]
         parents = [i[0] for i in parents if i[1] != 'v']
         parents = [i for i in parents if i not in keywords]
         parents = list(set(parents))

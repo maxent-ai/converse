@@ -59,6 +59,8 @@ class Callyzer:
 
     def get_interruption(self, threshold=1):
         """
+        Identify periods of interruption in a call.
+
         Parameters
         ----------
         threshold: int
@@ -85,6 +87,8 @@ class Callyzer:
 
     def get_silence(self, threshold=1):
         """
+        Identify periods of silence in a call.
+
         Parameters
         ----------
         threshold: int
@@ -165,7 +169,7 @@ class Callyzer:
 
     def tag_questions(self, inplace=True):
         """
-        For utterance, tag if it a question or not.
+        For utterance, tag if it is a question or not.
 
         Parameters
         ----------
@@ -187,6 +191,8 @@ class Callyzer:
     def tag_backchannel(self, type='default', inplace=True, model_name='all-MiniLM-L6-v2'):
         """
         For utterance, tag if it a backchannel or not.
+        Supports two methods to do this, by default - it uses a dictionary of known backchannels to identify(fast, less precise.)
+        also supports a slightly better/more precise way of identifying backchannels via language-model. (set type='nlp')
 
         Parameters
         ----------
@@ -301,7 +307,7 @@ class Callyzer:
 
     def tag_empathy(self, inplace=True):
         """
-        Tag if the utterance is empathetic or not,
+        Tag if the utterance is empathetic or not.
         """
         candidate_labels = ['empathy', 'non_empathetic', 'Neutral']
         texts = self.data[self.utterance].tolist()

@@ -1,3 +1,7 @@
+"""
+List of Common Backchannel keywords and phrases.
+"""
+
 backchannel = ['oh great',
                'oh my word',
                'oh yes',

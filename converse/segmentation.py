@@ -34,6 +34,8 @@ class SemanticTextSegmention:
 
     def get_segments(self, threshold=0.7):
         """
+        returns the transcript segments computed with texttiling and sentence-transformer.
+
         Paramters
         ---------
         threshold: float
