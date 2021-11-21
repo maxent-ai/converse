@@ -11,7 +11,7 @@ pip install pyconverse
 
 ### Usage
 
-Please try this notebook that demos the core functionalities: (usage_notebook)[notebook/usage.ipynb]
+Please try this notebook that demos the core functionalities: [basic usage notebook](https://github.com/AnjanaRita/converse/blob/master/notebook/usage.ipynb)
 
 ## Introduction
 
