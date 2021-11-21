@@ -1,4 +1,4 @@
-# Converse
+# PyConverse
 -----------
 
 ## Let me try first
@@ -16,13 +16,13 @@ Please try this notebook that demos the core functionalities: [basic usage noteb
 ## Introduction
 
 Conversation analytics plays an increasingly important role in shaping great customer experiences across various industries like finance/contact centers etc..
-primarily to gain a deeper understanding about the customers and to better serve their needs. This library, *Converse* is an attempt to provide tools & methods which can be used to gain an understannding of the conversations from multiple perspecitves using various NLP techniques. 
+primarily to gain a deeper understanding about the customers and to better serve their needs. This library, *PyConverse* is an attempt to provide tools & methods which can be used to gain an understanding of the conversations from multiple perspecitves using various NLP techniques. 
 
-## Why *Converse*?
+## Why *PyConverse*?
 
 I have been doing what can be called as conversational text NLP with primarily contact center data from various domains like Financial services, Banking, Insurace etc for the past year or so, and I have not come across any interesting open source tools that can help in understanding conversational texts as such I decided to create this library that can provide various tools and methods to analyse calls and help answer important questions/compute important metrics that usually people want to find from conversations, in contact center data analysis settings. 
 
-## Where can I use *Converse*?
+## Where can I use *PyConverse*?
 
 The primary usecase is geared towards contact center call analytics, but most of tools that Converse provides can be used elsewhere as well. 
 
@@ -36,11 +36,11 @@ If you are looking to answer questions like these:-
 4. What was the average agent response time/average hold time?
 5. What was being said on calls? 
 
-and more... converse might be of a small help.
+and more... pyconverse might be of a small help.
 
-## What can *Converse* do?
+## What can *PyConverse* do?
 
-At the moment converse can do few things that broadly fall into these categories:- 
+At the moment pyconverse can do few things that broadly fall into these categories:- 
 
 1. Emotion identification 
 2. Empathetic statement identification
@@ -63,4 +63,8 @@ At the moment converse can do few things that broadly fall into these categories
 2. Add more usecase notebooks/examples.
 3. Improve some of the functionalities and make it more streamlined. 
 
+### Built with: 
 
+|Transformers|Spacy|Pytorch|
+|---|---|---|
+|![](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)|![](https://raw.githubusercontent.com/github/explore/8cf1837393d83900e767cc895dcc814d053e2ffe/topics/spacy/spacy.png)|![](https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png)|
