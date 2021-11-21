@@ -1,6 +1,6 @@
 [metadata]
 name = 'pyconverse'
-version = '0.1.0'
+version = '0.2.0'
 description = 'Coversational Transcript Analysis using various NLP techniques'
 author = 'AnjanaRita'
 author_email = 'ritaanjana1993@gmail.com'
