@@ -1,0 +1,702 @@
+speaker,utterance,start_time,end_time
+CHI,he wan an explorer,0.0,1.033
+CHI,and he discovered America,1.033,3.4
+CHI,and he went for the king and queen of Spain.,3.4,7.983
+INV,tell me what you know about the Pilgrims.,16.161,20.777
+CHI,well they moved from England and came to America to Plymouth_Rock,20.777,28.711
+CHI,and it was hard for them at first when they came,28.711,34.261
+CHI,and a_lot_of them died and stuff,34.261,37.444
+CHI,and the Indians,37.444,40.0
+CHI,they met the Indians and they came along and helped them,40.0,43.016
+CHI,and that was how the first Thanksgiving started.,43.016,46.4
+INV,can you tell me anything else about the Pilgrims.,46.4,50.516
+CHI,they moved from England because of,50.516,60.782
+CHI,the king he wasn't treating them right,60.782,66.666
+CHI,and they couldn't have what they,66.666,70.3
+CHI,they had to worship what he wanted to worship and do what he wanted to do,70.3,74.932
+CHI,and they didn't like that so they moved.,74.932,77.715
+INV,can you tell me anything else,77.715,79.315
+INV,okay great,79.315,81.382
+INV,tell me everything you know about George_Washington.,81.382,85.082
+CHI,he was the first president,85.082,87.815
+CHI,he was,87.815,103.298
+CHI,well he,103.298,114.7
+CHI,I'm trying to,114.7,119.6
+CHI,well he fought in the Civil_War,119.6,122.948
+CHI,he was a general in the Civil_War,122.948,127.898
+CHI,and chopped down his father's cherry tree when he was a little boy,127.898,140.814
+CHI,he,140.814,155.2
+CHI,that's it.,155.2,156.133
+INV,okay,156.133,156.866
+INV,now you can tell me everything,156.866,160.516
+INV,even if you're not sure tell me anyway okay,160.516,162.516
+INV,can you tell me anything else about George_Washington,162.516,165.182
+INV,even if you're not sure,165.182,166.849
+INV,it's okay.,167.5,168.35
+CHI,unhunh,188.765,189.865
+CHI,unhunh.,189.865,196.298
+INV,can't think of anything,195.555,196.855
+INV,okay good,196.855,198.232
+INV,now tell me everything you know about the Declaration_of_Independence.,198.232,202.732
+CHI,the Declaration,202.732,204.9
+CHI,it was written in I think seventeen seventy six,204.9,209.098
+CHI,it was written by Thomas_Jefferson,209.098,214.064
+CHI,they wrote it because they needed a set of rules when they broke free from Britain,214.064,231.531
+CHI,and it,231.531,253.7
+CHI,oh lots of delegates from the thirteen colonies came,253.7,260.766
+CHI,and they held a meeting that lasted for a long time to talk about it.,260.766,266.416
+INV,can you tell me anything else about it.,266.416,273.032
+CHI,they,273.032,273.432
+CHI,they held the meeting to talk about the Declaration_of_Independence in Philadelphia,275.082,279.215
+CHI,that's it.,279.215,282.665
+INV,nothing else.,282.665,283.598
+CHI,unhunh.,283.598,284.348
+INV,okay,284.348,284.914
+INV,tell me everything you know about Benjamin_Franklin.,284.914,288.048
+CHI,he was an inventor,288.048,292.081
+CHI,he was one of the delegates who,292.081,297.7
+CHI,he was the first to sign the Declaration of Independence,297.7,301.431
+CHI,he invented bifocals,301.431,311.281
+CHI,and he found out about electricity.,311.281,322.431
+INV,anything else.,322.431,332.947
+CHI,unhunh.,332.947,333.764
+INV,mkay,333.764,334.747
+INV,even if you're not sure,334.747,335.764
+INV,anything else at all.,335.764,336.481
+CHI,unhunh.,336.481,342.564
+INV,okay,342.564,343.03
+INV,tell me everything you know about Abraham_Lincoln.,343.03,346.38
+CHI,he was the sixteenth president,346.38,348.63
+CHI,he was known as Honest_Abe,348.63,362.98
+CHI,he was a lawyer before he became the president,362.98,370.046
+CHI,when he was a little boy he lived in a log cabin,370.046,374.53
+CHI,he taught himself to read,374.53,376.53
+CHI,he signed the Emancipation_Proclamation.,376.53,396.646
+INV,anything else.,396.646,403.996
+CHI,unhunh.,403.996,406.296
+INV,mkay,406.296,407.48
+INV,tell me everything you know about the Civil_War.,407.48,410.513
+CHI,Civil_War was fought between the north and the south,410.513,415.613
+CHI,it was about slavery,415.613,418.513
+CHI,and they had the Confederates and the Rebel or something,418.513,444.696
+CHI,I forgot what the other side.,444.696,446.246
+INV,what was,445.946,448.629
+INV,did you say Rebels,449.2,450.4
+INV,okay,450.4,451.066
+INV,what else.,451.066,451.916
+CHI,that's it.,451.916,467.166
+INV,okay nothing else about the Civil_War.,467.166,469.549
+CHI,unhunh.,468.6,469.166
+INV,okay tell me everything you know about the Constitution of the United_States.,469.549,473.832
+CHI,Constitution,473.832,478.249
+CHI,it was written,478.249,490.815
+CHI,it was laws,490.815,491.932
+CHI,it was a set of laws that,491.932,494.847
+CHI,well it's written,494.847,496.365
+CHI,and it was written for,496.365,534.7
+CHI,it had amendments in it,534.7,539.348
+CHI,and.,539.348,549.014
+INV,anything else.,549.014,549.881
+CHI,the Bill_of_Rights was added to it.,549.881,552.698
+INV,mhm,552.698,554.081
+INV,anything else.,554.081,572.381
+CHI,trying to think.,572.381,575.264
+INV,okay.,574.198,574.931
+CHI,that's it.,575.264,585.064
+INV,okay that's it,585.064,585.98
+INV,okay,585.98,586.63
+INV,tell me everything you know about John_F_Kennedy.,586.63,590.33
+CHI,he got assassinated,590.33,593.414
+CHI,he was the president,593.414,604.08
+CHI,that's it.,604.08,618.28
+INV,nothing else,618.28,618.947
+INV,okay tell me everything you know about the atomic bomb.,618.947,623.697
+CHI,a weapon.,623.697,677.647
+INV,mhm.,677.647,678.33
+CHI,used in war.,678.33,679.93
+INV,even if you're not sure.,679.93,684.23
+CHI,I can't,684.23,689.43
+CHI,they used it a_lot in World_War_One,689.43,692.73
+CHI,that's it.,692.73,700.68
+INV,that's it,700.68,701.13
+INV,okay,701.13,701.53
+INV,tell me everything you know about the Industrial_Revolution.,701.53,705.246
+CHI,well that's when the cotton gin was made.,705.246,714.079
+INV,okay.,714.079,716.562
+CHI,and a_lot_of other things were invented,716.562,726.0
+CHI,a_lot_of things were invented at that time,726.0,728.846
+CHI,and it,728.846,741.2
+CHI,that's it.,741.2,741.783
+INV,okay,741.783,742.149
+INV,hold this closer to your mouth because you're talking so soft,742.149,744.849
+INV,tell me everything you know about Martin_Luther_King_Junior.,744.849,748.983
+CHI,he was a civil rights leader,748.983,751.633
+CHI,he led,751.633,761.345
+CHI,he write the famous I_Have_A_Dream speech,761.345,764.511
+CHI,he died on April fourth,764.511,770.545
+CHI,no,770.545,771.411
+CHI,yeah,771.411,771.895
+CHI,I think,771.895,772.578
+CHI,and at the Lorraine_Motel,772.578,776.161
+CHI,he,776.161,787.411
+CHI,I'm trying to,787.411,788.427
+CHI,I know a_lot about him,788.427,789.555
+CHI,I'm trying to,789.555,790.527
+CHI,see see,790.527,793.043
+CHI,when he was a little boy he lived a pretty good life,793.043,811.093
+CHI,and he fought with peace not violence,811.093,825.726
+CHI,he was a reverend,825.726,834.359
+CHI,he lived in Montgomery_Alabama,834.359,838.759
+CHI,he had,838.759,854.059
+CHI,his wife was named Coretta,854.059,855.959
+CHI,he had four children I think,855.959,866.775
+CHI,he did many famous speeches,866.775,880.325
+CHI,he led lots_of marches,880.325,889.691
+CHI,he led a march with all children,889.691,895.225
+CHI,he was put in jail,895.225,902.125
+CHI,he,902.125,915.608
+CHI,that's it.,915.608,916.174
+INV,that's it,916.174,916.974
+INV,okay,916.974,917.574
+INV,tell me everything you know about the slave trade.,917.574,921.408
+CHI,well.,921.408,923.0
+INV,the slave trade.,923.0,924.174
+CHI,people would go to,924.174,931.4
+CHI,well they would go to places and they would trade things off for slaves,931.4,937.54
+CHI,it started in Africa,937.54,939.89
+CHI,and they would trade rum and stuff like that.,939.89,944.59
+INV,slave trade,963.0,964.2
+INV,what else can you tell me.,964.2,966.666
+CHI,that's it.,966.666,972.75
+INV,that's it,972.75,973.35
+INV,okay,973.35,974.1
+INV,tell me everything you know about the civil rights movement.,974.1,977.166
+CHI,well in the civil rights movement that's when people they were going against segregation,977.166,990.566
+CHI,and they had lots_of events like the bus boycott,990.566,997.4
+CHI,and lots_of civil rights leaders they said speeches and led marches and boycotted other places,997.4,1013.632
+CHI,and they,1013.632,1032.6
+CHI,people that were really involved in it were people like Martin_Luther_King and Rosa_Parks,1032.6,1040.45
+CHI,and they,1040.45,1082.7
+CHI,that's it.,1082.7,1083.35
+INV,anything else.,1083.35,1084.983
+CHI,unhunh.,1084.983,1085.45
+INV,that's it,1085.45,1086.016
+INV,okay tell me everything you know about Harriet_Tubman.,1086.016,1089.783
+CHI,well she was born around eighteen ninety two I think,1089.783,1103.0
+CHI,and she escaped from slavery and she went back to help other people escape,1103.0,1116.65
+CHI,she helped escape nine hundred slaves and went about thirteen times,1116.65,1124.6
+CHI,and she never got caught,1124.6,1129.4
+CHI,and the slave catchers had a_lot_of money for her that if somebody caught her,1129.4,1140.05
+CHI,but she was never caught,1140.05,1141.5
+CHI,and she was a nurse scout and a spy in the Civil_War,1141.5,1147.216
+CHI,and she was the leader of the Underground_Railroad,1147.216,1153.849
+CHI,that's it.,1153.849,1174.532
+INV,that's it,1174.532,1175.099
+INV,okay,1175.099,1175.432
+INV,tell me everything you know about Frederick_Douglass.,1175.432,1178.899
+CHI,he was a abolitionist,1178.899,1181.666
+CHI,he wrote a newspaper,1181.666,1186.632
+CHI,he,1186.632,1220.765
+CHI,that's it.,1220.765,1221.348
+INV,nothing else about Frederick_Douglass.,1221.348,1223.631
+CHI,unhunh.,1222.365,1223.032
+INV,okay,1223.631,1224.547
+INV,tell me everything you know about the NAACP.,1224.547,1228.047
+CHI,well it's a organization for Black people,1228.047,1244.447
+CHI,and it,1244.447,1251.697
+CHI,I know one of the founders was Ida_B_Wells,1251.697,1254.997
+CHI,and,1254.997,1267.9
+CHI,that's it.,1267.9,1268.45
+INV,nothing else about the NAACP.,1268.45,1270.2
+CHI,unhunh.,1270.2,1270.85
+INV,okay tell me everything you know about Malcolm_X.,1270.85,1274.0
+CHI,he was a leader,1274.0,1280.95
+CHI,and he changed his name,1280.95,1296.783
+CHI,that's why he has the x there,1296.783,1299.666
+CHI,he said famous speeches too,1299.666,1306.866
+CHI,and,1306.866,1316.449
+CHI,that's it.,1316.449,1317.265
+INV,nothing else about Malcolm_X.,1317.265,1318.849
+CHI,unhunh.,1318.849,1319.432
+INV,okay tell me everything you know about Muhammad_Ali.,1319.432,1321.965
+CHI,he was a boxer,1321.965,1324.031
+CHI,heavyweight champion of the world,1324.031,1327.048
+CHI,he said many famous,1327.048,1336.031
+CHI,I_mean he had a famous rhyme that he said,1336.031,1339.698
+CHI,and he,1339.698,1345.198
+CHI,they took away his title when he refused to join the army,1345.198,1353.514
+CHI,and was born in Kentucky,1353.514,1359.298
+CHI,he was born in Kentucky,1359.298,1362.598
+CHI,he had a disease and he couldn't box anymore,1362.598,1374.348
+CHI,that's it.,1374.348,1377.481
+INV,nothing else about Muhammad_Ali,1377.481,1379.564
+INV,okay,1379.564,1380.214
+INV,tell me everything you know about the Ku_Klux_Klan.,1380.214,1383.18
+CHI,they were a group of people that go and treat people different from them wrong,1383.18,1402.597
+CHI,from different races,1402.597,1406.897
+CHI,especially African_Americans,1406.897,1409.3
+CHI,and they would kill them or hurt them or something,1409.3,1418.033
+CHI,and they would burn crosses,1418.033,1427.6
+CHI,they wore long white robes with white hats over their heads so noone could see them,1427.6,1447.533
+CHI,and that's it.,1447.533,1450.383
+INV,nothing else about the Ku_Klux_Klan,1450.383,1452.549
+INV,okay,1452.549,1453.399
+INV,tell me everything you know about the Montgomery_Bus_Boycott.,1453.399,1456.699
+CHI,it was because the Blacks had to sit in the back of the bus or if the back of the bus was full they had to stand up,1456.699,1469.583
+CHI,and it started with Rosa_Parks when she had to go to jail because she sat in the front of the bus because she was tired,1469.583,1479.483
+CHI,and they took her to jail,1479.483,1480.683
+CHI,so they didn't go on the bus,1480.683,1486.883
+CHI,and they did carpools and walked and rode bicycles,1486.883,1494.533
+CHI,and Martin_Luther_King was also a part of this,1494.533,1498.216
+CHI,and that's it.,1498.216,1499.366
+INV,anything else about the Montgomery_Bus_Boycott.,1499.366,1501.583
+CHI,unhunh.,1501.583,1502.216
+INV,okay,1502.216,1502.899
+INV,tell me everything you know about Little_Red_Riding_Hood.,1509.049,1512.706
+CHI,the characters are a little girl who wore a red hood a wolf a woodsman and a grandmother and a mother,1512.706,1523.155
+CHI,and the woodsman saved the grandmother and the little girl,1523.155,1528.716
+CHI,and the wolf tricked the little girl,1528.716,1537.923
+CHI,and he ate her,1537.923,1542.288
+CHI,but the woodsman got her out and killed the wolf,1542.288,1547.524
+CHI,and the wolf faked to be the grandmother,1547.524,1553.596
+CHI,and the little girl was supposed to take a basket of food to her grandmother,1553.596,1561.224
+CHI,and the wolf got there before her and ate the grandmother,1561.224,1568.979
+CHI,and that's it.,1568.979,1575.922
+INV,that's it,1575.922,1576.526
+INV,okay,1576.526,1577.664
+INV,tell me everything you know about Cinderella.,1577.664,1580.299
+CHI,well a girl's father got remarried when her mother died,1580.299,1589.413
+CHI,and the lady that he got remarried to had two daughters,1589.413,1596.154
+CHI,and her father died,1596.154,1598.789
+CHI,and her stepmother her stepsisters treated her wrong and made her clean,1598.789,1604.445
+CHI,and so a prince had a ball,1604.445,1609.623
+CHI,and the stepsisters and the stepmother wouldn't let her go to the ball,1609.623,1617.634
+CHI,so she cried,1617.634,1620.223
+CHI,and her fairy godmother came and gave her a dress and some glass slippers and gave her a carriage,1620.223,1630.962
+CHI,and she went to the ball,1630.962,1631.937
+CHI,and at the ball she danced with the prince,1631.937,1634.898
+CHI,and her fairy godmother said that she had to be home by midnight,1634.898,1641.98
+CHI,so the prince,1641.98,1647.48
+CHI,so it was midnight,1647.48,1649.094
+CHI,so she went and she lost the shoe,1649.094,1651.149
+CHI,and the prince found the shoe and made every maiden in the kingdom try on the shoe,1651.149,1659.949
+CHI,and he came to her house,1659.949,1661.865
+CHI,and he tried the shoe on her,1661.865,1665.717
+CHI,and it fit,1665.717,1666.36
+CHI,and then they got married,1666.36,1667.507
+CHI,Cinderella and the prince.,1667.507,1669.388
+INV,okay,1669.388,1672.105
+INV,nothing else.,1672.105,1672.685
+CHI,unhunh.,1672.685,1673.672
+INV,okay tell me what you know about an orchestra.,1673.672,1676.354
+CHI,an orchestra is a group of instruments that play songs,1676.354,1681.95
+CHI,and they have parts,1681.95,1685.444
+CHI,they have the brass the woodwinds and the strings,1685.444,1690.0
+CHI,and they,1690.0,1698.194
+CHI,and the brass includes instruments like trumpet,1698.194,1701.914
+CHI,and strings includes violins and cellos,1701.914,1707.891
+CHI,and woodwinds include flutes or oboes or,1707.891,1719.619
+CHI,yeah,1719.619,1719.991
+CHI,that's it,1719.991,1722.719
+CHI,unhunh.,1722.906,1723.521
+INV,okay,1723.521,1724.206
+INV,tell me everything you know about The_Little_House_On_The_Prairie.,1724.206,1727.526
+CHI,well it's a book written by,1727.526,1741.623
+CHI,it's a book written by a lady,1741.623,1746.708
+CHI,and she used names from her family and stuff and wrote tales about it,1746.708,1758.272
+CHI,and it's a series,1758.272,1764.959
+CHI,that's it.,1764.959,1767.653
+INV,nothing else.,1767.653,1768.616
+CHI,unhunh.,1768.616,1769.208
+INV,okay tell me everything you know about The_Wizard_Of_Oz.,1769.208,1772.668
+CHI,well it's a book written by Frank,1772.668,1776.325
+CHI,I don't know how to pronounce his last name,1776.325,1778.891
+CHI,Baum or something like that,1778.891,1782.455
+CHI,and it's about a girl who lives in Kansas who has her dog Toto,1782.455,1791.627
+CHI,and the girl's name's Dorothy.,1791.627,1793.531
+INV,Toto and Dorothy.,1820.52,1822.656
+CHI,so she,1822.656,1826.894
+CHI,a lady who lives in her neighborhood she wants to take Toto away from her,1826.894,1834.719
+CHI,so she runs away,1834.719,1836.321
+CHI,and then so she tries to go back,1836.321,1842.057
+CHI,and then she meets a fortune teller,1842.057,1846.909
+CHI,and he tells her things that encourage her to go back home,1846.909,1852.366
+CHI,so she goes and a tornado hits or a cyclone,1852.366,1858.171
+CHI,and so she goes somewhere,1858.171,1864.974
+CHI,she goes somewhere over the rainbow,1864.974,1866.541
+CHI,and there is,1866.541,1873.753
+CHI,she meets the Munchkin men,1873.753,1877.224
+CHI,and they tell her to go to the wizard to go home,1877.224,1880.526
+CHI,and she meets the good fairy,1880.526,1881.822
+CHI,and she tells her to go to the wizard to go home,1881.822,1886.234
+CHI,and to go to the wizard had to follow the yellow brick road,1886.234,1888.695
+CHI,she does that,1888.695,1891.238
+CHI,and along the way she meets a scarecrow who wants a brain,1891.238,1898.262
+CHI,she meets a tin man who wants a heart,1898.262,1901.954
+CHI,and she meets a lion who wants some courage,1901.954,1905.239
+CHI,and they finally go to the wizard in the Emerald_City where the wizard tells them that they need the witch's broom the wicked witch of the west's broom,1905.239,1918.776
+CHI,but her house lands on the wicked witch of the east,1918.776,1922.874
+CHI,and so they go to get the broom,1922.874,1928.61
+CHI,and they have to go,1928.61,1932.62
+CHI,they get caught by the witch's winged monkeys,1932.62,1935.839
+CHI,and the witch makes the lion and Dorothy her slave but the lion refuses to be her slave so she fires him,1935.839,1946.872
+CHI,so Dorothy melts her with some water and helps the lion escape,1946.872,1957.913
+CHI,and they go and find the tin man and the scarecrow,1957.913,1961.592
+CHI,and then they take her broom and go back to the wizard of Oz,1961.592,1965.783
+CHI,but the wizard of Oz turns out to be a fake,1965.783,1968.825
+CHI,but he helps them anyway,1968.825,1972.482
+CHI,he gives the scarecrow a diploma,1972.482,1975.733
+CHI,he gives the lion something to make him think he has courage,1975.733,1986.194
+CHI,and he puts some pins in the scarecrow's head to make him feel like a brain,1986.194,1996.445
+CHI,and then he takes a balloon,1996.445,1999.835
+CHI,and he tries to go to Kansas,1999.835,2004.804
+CHI,but Toto jumps out the balloon,2004.804,2007.3
+CHI,and Dorothy goes to get him,2007.3,2008.531
+CHI,and the wizard flies away,2008.531,2010.621
+CHI,so she still hasn't got a home,2010.621,2012.722
+CHI,so they had to travel to all these lands to go to the good witch,2012.722,2018.423
+CHI,so they had to go through a_lot_of other adventures,2018.423,2024.216
+CHI,and they finally get there,2024.216,2026.167
+CHI,so all she has to do is click her heels three times and say,2026.167,2030.184
+CHI,there's no place like home,2030.184,2032.413
+CHI,and she was home.,2032.413,2034.004
+INV,okay good,2034.004,2035.629
+INV,tell me everything you know about Pinocchio.,2035.629,2038.311
+CHI,well it's a story about a puppet,2038.311,2041.655
+CHI,a man named Geppetto makes a puppet,2041.655,2044.731
+CHI,and he acts like it's his son,2044.731,2050.327
+CHI,and one day a fairy comes and makes the puppet come to life,2050.327,2056.515
+CHI,and the puppet wants to be a real boy,2056.515,2064.433
+CHI,so he goes to lots_of places,2064.433,2069.75
+CHI,and everywhere he goes every time he tells a lie his nose grows longer,2069.75,2077.843
+CHI,and he goes to this island,2077.843,2085.621
+CHI,and he goes to a man's puppet show,2085.621,2091.949
+CHI,and he's the puppet because he has no strings,2091.949,2095.792
+CHI,and then he's supposed to go to school but he doesn't,2095.792,2100.993
+CHI,and he escapes,2100.993,2104.371
+CHI,and then at the island the boys turn into donkeys,2104.371,2108.656
+CHI,and so he gets saved from turning into a donkey,2108.656,2113.625
+CHI,he goes back home to Geppetto and he finds he's not there,2113.625,2119.116
+CHI,because Geppetto went out looking for him,2119.116,2121.171
+CHI,and so he goes to find him,2121.171,2123.69
+CHI,and then he looks everywhere,2123.69,2125.989
+CHI,then finally he goes to the sea,2125.989,2127.568
+CHI,and Geppetto got eaten by a whale,2127.568,2132.375
+CHI,and so he went to go save him,2132.375,2135.672
+CHI,and so Geppetto finds Pinocchio,2135.672,2144.284
+CHI,and Pinocchio's unconscious so he takes him home,2144.284,2146.864
+CHI,and then when he wakes up the next morning Pinocchio's a real boy.,2146.864,2150.637
+INV,anything else.,2150.637,2152.344
+CHI,unhunh.,2152.344,2153.041
+INV,okay,2153.041,2153.459
+INV,tell me everything you know about Elvis_Presley.,2153.459,2156.257
+CHI,well he did rock'n'roll and stuff,2156.257,2164.012
+CHI,and he lived in Memphis,2164.012,2167.588
+CHI,and he had,2167.588,2168.572
+CHI,Graceland is his home,2168.572,2170.708
+CHI,he had lots_of famous songs,2170.708,2174.249
+CHI,and he's real famous,2174.249,2176.75
+CHI,around Memphis they have have lots_of places named after him,2176.75,2179.903
+CHI,and some of his famous songs were You_Ain't_Nothin_But_A_Hound_Dog and Blue_Suede_Shoes,2179.903,2192.895
+CHI,and that's it.,2192.895,2194.81
+INV,nothing else.,2194.81,2197.62
+CHI,unhunh.,2197.62,2198.258
+INV,okay,2198.258,2198.723
+INV,tell me everything you know about Alice_In_Wonderland.,2198.723,2202.067
+CHI,it's a story about a girl who falls down a rabbit hole and goes through lots_of strange adventures,2202.067,2213.352
+CHI,and she meets a cat that disappears and always smiling,2213.352,2219.447
+CHI,and she meets a white rabbit that's always in a hurry,2219.447,2225.507
+CHI,and she meets a queen with a bad temper,2225.507,2227.934
+CHI,and when she travels down the hole it's a long way down,2227.934,2233.716
+CHI,she goes into this place,2233.716,2235.422
+CHI,and there are lots_of doors and lots_of things to eat and drink that make you bigger or smaller,2235.422,2243.445
+CHI,so as she goes through the,2243.445,2247.392
+CHI,and she meets a mouse while she's in all those rooms,2247.392,2253.185
+CHI,and she meets a duchess who has a baby that turned into a pig,2253.185,2266.746
+CHI,and she has,2266.746,2278.225
+CHI,she meets,2278.225,2282.626
+CHI,that's it.,2282.626,2283.336
+INV,nothing else.,2283.336,2283.929
+CHI,unhunh.,2283.929,2284.706
+INV,okay,2284.706,2285.159
+INV,tell me everything you know about Peter_Pan.,2285.159,2287.435
+CHI,story about a girl and her two brothers,2287.435,2293.135
+CHI,they have dreams about Peter_Pan,2293.135,2300.89
+CHI,and one day he visits the house,2300.89,2304.013
+CHI,and her parent,2304.013,2307.183
+CHI,and their names were Wendy John and Michael,2307.183,2310.526
+CHI,their parents were Missus and Mister_Darling,2310.526,2312.883
+CHI,so one day Peter_Pan comes to visit them,2312.883,2316.401
+CHI,he leaves his shadow,2316.401,2319.396
+CHI,so the next day comes back,2319.396,2321.625
+CHI,and he tries to catch his shadow and stick it back on,2321.625,2325.282
+CHI,and he has this fairy named Tinkerbell that goes everywhere with him,2325.282,2328.765
+CHI,and so Wendy she hears all the noise she's making while Peter's trying to catch his shadow,2328.765,2336.521
+CHI,and she wakes up and sews it on for him,2336.521,2339.946
+CHI,and so she wakes up her two brothers,2339.946,2343.196
+CHI,and then they fly to Neverland with Peter,2343.196,2345.646
+CHI,and they meet the lost boys and Tinkerbell and Captain_Hook and the pirates and the mermaids,2345.646,2357.674
+CHI,and they go through all kinds of adventures,2357.674,2362.748
+CHI,and Tinkerbell gets jealous of Wendy,2362.748,2366.846
+CHI,and they defeat the,2366.846,2373.333
+CHI,and they meet Tiger_Lily and the Indians,2373.333,2375.748
+CHI,and they defeat the pirates and take over the ship,2375.748,2378.207
+CHI,and they fly back home to their parents.,2378.207,2380.148
+INV,anything else.,2380.148,2381.309
+CHI,unhunh.,2381.309,2382.087
+INV,okay,2382.087,2382.482
+INV,what do you know about ballet.,2382.482,2384.188
+CHI,it's a type of dance that you have to be graceful to do,2384.188,2390.829
+CHI,and it has a move,2390.829,2398.259
+CHI,well it has dance moves that are French language like plie and,2398.259,2413.0
+CHI,you,2413.0,2419.415
+CHI,and that's it.,2419.415,2420.042
+INV,okay,2420.042,2420.947
+INV,now tell me what you know about jazz.,2420.947,2424.152
+CHI,it's a type of music that's played,2424.152,2437.44
+CHI,it was famous type of music,2437.44,2439.651
+CHI,was,2439.651,2451.0
+CHI,well it was originated by African_Americans,2451.0,2455.911
+CHI,and well instrument that they have pianos that play jazz and the saxophones and,2455.911,2474.888
+CHI,yep,2474.888,2475.956
+CHI,sometimes some people sing it,2475.956,2479.961
+CHI,and that's it.,2479.961,2488.773
+INV,okay,2488.773,2489.389
+INV,tell me what you know about Maya_Angelou.,2489.389,2491.85
+CHI,she's a poet.,2491.85,2493.452
+INV,mhm.,2493.452,2494.218
+CHI,and she's a Black,2494.218,2499.231
+CHI,and she wrote books too,2499.231,2504.377
+CHI,she wrote Why_Does_The_Caged_Bird_Sing,2504.377,2510.182
+CHI,and one of her poems was Phenomenal_Woman,2510.182,2516.184
+CHI,and she,2516.184,2530.5
+CHI,she's still alive today,2530.5,2532.8
+CHI,and that's it.,2532.8,2539.035
+INV,okay,2539.035,2539.778
+INV,what do you know about the Blues.,2539.778,2541.891
+CHI,it's a type of music that was also originated by African_Americans,2541.891,2554.487
+CHI,and it has sort_of a sad sound,2554.487,2565.075
+CHI,and it,2565.075,2572.7
+CHI,that's it.,2572.7,2573.458
+INV,anything else,2573.458,2574.386
+INV,okay.,2574.386,2576.523
+CHI,it had trumpets and Louis_Armstrong and W_C_Handy,2576.523,2588.772
+CHI,that's it.,2588.772,2593.276
+INV,okay,2593.276,2593.973
+INV,tell me what you know about Michael_Jackson.,2593.973,2597.096
+CHI,he's a singer,2597.096,2600.509
+CHI,and he was once part of the Jackson_Five,2600.509,2603.632
+CHI,that was a group of him and his brothers,2603.632,2606.581
+CHI,and he made lots_of songs,2606.581,2617.03
+CHI,and then he had a skin disease that made him,2617.03,2624.492
+CHI,and he's still alive today,2624.492,2630.904
+CHI,and then one of his famous songs with the Jackson_Five was ABC,2630.904,2638.207
+CHI,and then the famous song when he went solo was Beat_It,2638.207,2643.872
+CHI,and he had his house,2643.872,2651.117
+CHI,he had lots_of animals there,2651.117,2653.125
+CHI,and when he was doing the commercial for Pepsi his head got injured,2653.125,2659.523
+CHI,and that's it.,2659.523,2665.049
+INV,okay,2665.049,2665.989
+INV,tell me what you know about B_B_King.,2665.989,2668.091
+CHI,well it's the Blues,2668.091,2674.685
+CHI,plays the guitar,2674.685,2676.102
+CHI,and he is still alive I think,2676.102,2684.087
+CHI,yeah he is,2684.087,2685.055
+CHI,and there are many places in Memphis named,2685.055,2689.78
+CHI,well there are streets and places named after him too in Memphis,2689.78,2695.539
+CHI,that's it.,2695.539,2703.736
+INV,nothing else about B_B_King,2703.736,2705.709
+INV,okay tell me what you know about Motown.,2705.709,2708.391
+CHI,it's a record company that did many of the old famous artists like the Temptations and the Jackson_Five and Diana_Ross_And_The_Supremes,2708.391,2723.136
+CHI,and Berry_Gordy he started it,2723.136,2730.346
+CHI,that's it.,2730.346,2736.963
+INV,that's it,2736.963,2737.567
+INV,tell me what you know about Roots,2737.567,2739.936
+INV,The_Saga_Of_An_American_Family,2739.936,2741.8
+INV,Roots.,2741.8,2742.525
+CHI,it's a book,2742.525,2745.114
+CHI,and that's it.,2745.114,2750.489
+INV,nothing else about Roots.,2750.489,2752.092
+CHI,unhunh.,2752.092,2752.672
+INV,okay tell me what you know about Aretha_Franklin.,2752.672,2754.982
+CHI,she was a singer,2754.982,2756.875
+CHI,and she was born here in Memphis,2756.875,2762.854
+CHI,well she lived in Memphis,2762.854,2765.088
+CHI,well she,2765.088,2766.506
+CHI,and she was famous for her songs,2766.506,2774.61
+CHI,well she was famous for the song Respect,2774.61,2776.978
+CHI,and she,2776.978,2793.0
+CHI,and that's it.,2793.0,2793.708
+INV,that's it,2793.708,2794.242
+INV,tell me what you know about Sammy_Davis_Junior,2794.242,2798.642
+INV,nothing.,2798.642,2804.099
+CHI,unhunh.,2804.099,2804.691
+INV,okay,2804.691,2805.19
+INV,tell me what you know about The_Color_Purple.,2805.19,2807.942
+CHI,it's a book about a woman who,2807.942,2818.281
+CHI,about her life and her family,2818.281,2821.723
+CHI,and her husband treated her wrong,2821.723,2834.842
+CHI,and her children were in Africa away from her,2834.842,2839.452
+CHI,and finally she moved away from her husband,2839.452,2849.1
+CHI,and then she saw her children,2849.1,2850.55
+CHI,and that's all.,2850.55,2853.333
+INV,nothing else about The_Color_Purple,2853.333,2855.566
+INV,okay,2855.566,2856.901
+INV,now we're moving on to news events,2856.901,2859.054
+INV,we're almost done,2859.054,2859.777
+INV,and this is,2859.777,2861.023
+INV,okay tell me what you know about Bill_Clinton.,2861.023,2863.774
+CHI,he was the president.,2863.774,2866.334
+INV,mhm.,2865.996,2866.716
+CHI,and he almost got impeached because of,2866.316,2873.5
+CHI,it's a lady named Monica_Lewinsky,2873.5,2876.319
+CHI,and he did pardons for his brother or stepbrother or something,2876.319,2895.719
+CHI,and he gave pardon to this lady that he knew Denise_Somebody her husband,2895.719,2905.205
+CHI,and he had two terms as president,2905.205,2921.413
+CHI,and his real name is William_Clinton,2921.413,2928.46
+CHI,and that's it.,2928.46,2939.164
+INV,that's it,2939.164,2939.791
+INV,okay now these are news events now,2939.791,2941.916
+INV,tell me what you know about Elian_Gonzalez.,2941.916,2944.621
+CHI,well he was going from Cuba to America,2944.621,2950.461
+CHI,and the boat sank,2950.461,2952.609
+CHI,and he was lost out in sea,2952.609,2954.083
+CHI,and he was found,2954.083,2955.407
+CHI,and his mother got killed on the boat,2955.407,2962.35
+CHI,so he went to visit some relatives,2962.35,2966.797
+CHI,and well he went to stay with some relatives in Florida,2966.797,2969.479
+CHI,and his father wanted to get,2969.479,2974.448
+CHI,it was his father wanted to come back but his relatives wanted to keep him,2974.448,2978.929
+CHI,and they had this big old argument about who's gonna keep him,2978.929,2983.654
+CHI,so finally he had to come back to Cuba with his father.,2983.654,2987.973
+INV,anything else,2987.973,2989.355
+INV,okay,2989.355,2990.69
+INV,what do you know about the Columbine shooting.,2990.69,2993.14
+CHI,well it was a school in Colorado I think,2993.14,3001.685
+CHI,and these boys they shot a whole bunch of teachers and students,3001.685,3008.952
+CHI,and this,3008.952,3017.123
+CHI,and that's it.,3017.123,3017.7
+INV,that's it,3017.7,3018.327
+INV,what do you know about the Oklahoma_City bombing.,3018.327,3021.09
+CHI,well the man who did it he is getting executed soon or he already has,3021.09,3031.295
+CHI,no he's getting executed soon,3031.295,3033.443
+CHI,and that's it.,3033.443,3036.961
+INV,nothing else.,3036.961,3037.669
+CHI,unhunh.,3037.669,3038.25
+INV,okay,3038.25,3038.958
+INV,what do you know about Princess_Diana.,3038.958,3040.908
+CHI,she died in a car accident,3040.908,3046.191
+CHI,and she had a son Prince_William,3046.191,3058.683
+CHI,and that's it.,3058.683,3067.716
+INV,that's it,3067.716,3068.459
+INV,nothing else about Princess_Diana.,3068.459,3069.84
+CHI,unhunh.,3069.84,3070.467
+INV,okay tell me what you know about Al_Gore.,3070.467,3072.812
+CHI,he used to be the,3072.812,3075.912
+CHI,he was Bill_Clinton's vice president,3075.912,3079.36
+CHI,and he ran against George_Bush for president for this term,3079.36,3086.651
+CHI,and so he lost,3086.651,3089.159
+CHI,and his running mate or his vice president was Dave_Lieberman,3089.159,3100.154
+CHI,and he's a Democrat,3100.154,3103.799
+CHI,he,3103.799,3113.6
+CHI,that's it.,3113.6,3114.401
+INV,okay nothing else about Al_Gore,3114.401,3116.305
+INV,okay tell me what you know about the Jonbenet_Ramsey case.,3116.305,3120.171
+CHI,it's a little girl who,3120.171,3123.434
+CHI,she sang and danced and stuff,3123.434,3127.73
+CHI,she was cute,3127.73,3132.095
+CHI,and people say that her parents did it,3132.095,3135.776
+CHI,and it was this big,3135.776,3141.7
+CHI,it took long,3141.7,3142.73
+CHI,that's it.,3142.73,3145.412
+INV,nothing else about Jonbenet_Ramsey,3145.412,3147.374
+INV,tell me what you know about Steven_Spielberg.,3147.374,3149.928
+CHI,he's a director,3149.928,3151.809
+CHI,one of his movies was Amistad,3151.809,3162.351
+CHI,and that's it.,3162.351,3171.407
+INV,nothing else about Steven_Spielberg,3171.407,3172.962
+INV,what do you know about John_F_Kennedy_Junior.,3172.962,3175.517
+CHI,he got killed in a plane accident going to a wedding,3182.483,3190.575
+CHI,and they,3190.575,3206.223
+CHI,he was John_F_Kennedy's son,3206.223,3208.35
+CHI,and that's it.,3208.35,3214.921
+INV,nothing else about,3214.921,3216.398
+INV,okay tell me what you know about Mother_Theresa.,3216.398,3218.973
+CHI,she was a saint,3218.973,3232.208
+CHI,that's it.,3232.208,3234.739
+INV,nothing else about Mother_Theresa,3234.739,3236.295
+INV,okay,3236.295,3237.572
+INV,last bit,3237.572,3239.465
+INV,tell me what you know about Bill_Cosby.,3239.465,3242.123
+CHI,he's a comedian and an actor,3242.123,3245.525
+CHI,and he had a show called The_Cosby_Show,3245.525,3258.331
+CHI,and somebody shot his son,3258.331,3265.332
+CHI,and that's it.,3265.332,3274.945
+INV,nothing else about Bill_Cosby,3274.945,3276.744
+INV,tell me what you know about Whitney_Houston.,3276.744,3279.298
+CHI,she's a singer,3279.298,3280.54
+CHI,and she has a daughter,3280.54,3284.906
+CHI,and she's married,3284.906,3286.682
+CHI,and she's still alive today,3286.682,3292.418
+CHI,and she,3292.418,3306.526
+CHI,that's it.,3306.526,3307.244
+INV,that's it,3307.244,3307.859
+INV,okay,3307.859,3308.37
+INV,tell me what you know about Jesse_Jackson.,3308.37,3310.785
+CHI,he's a reverend and a leader,3310.785,3315.22
+CHI,and he helped many people,3315.22,3325.611
+CHI,because he helped Bill_Clinton when he was with him,3325.611,3336.463
+CHI,and he helped,3336.463,3343.84
+CHI,and he,3343.84,3356.435
+CHI,I dunno,3356.435,3357.074
+CHI,that's it.,3357.074,3360.301
+INV,that's it,3360.301,3361.161
+INV,okay,3361.161,3361.59
+INV,tell me what you know about Michael_Jordan.,3361.59,3365.421
+CHI,he was a really good basketball player,3365.421,3368.324
+CHI,and he retired from basketball,3368.324,3374.837
+CHI,he played for the Chicago_Bulls,3374.837,3378.982
+CHI,and he.,3378.982,3385.432
+INV,that's it,3385.432,3385.938
+INV,nothing else about Michael_Jordan,3385.938,3387.726
+INV,okay tell me what you know about Rodney_King.,3387.726,3391.012
+CHI,nothing.,3391.012,3392.463
+INV,nothing,3392.463,3393.043
+INV,what do you know about the Million_Man_March.,3393.043,3395.748
+CHI,it's a march that,3395.748,3414.164
+CHI,lots_of people went to it,3414.164,3416.913
+CHI,that's it.,3416.913,3423.566
+INV,that's it,3423.566,3424.17
+INV,what do you know about Moesha.,3424.17,3425.586
+CHI,it's a show on UPN,3425.586,3429.963
+CHI,it stars Brandy,3429.963,3432.378
+CHI,and she plays Moesha,3432.378,3437.159
+CHI,and she has a brother named Myles and her father's named Frank,3437.159,3440.723
+CHI,and her stepmother's name's Dee,3440.723,3445.0
+CHI,and she has friends,3445.0,3446.2
+CHI,I guess Niecy and Hakeem,3446.2,3450.859
+CHI,that's it.,3450.859,3454.887
+INV,nothing else about,3454.887,3456.62
+INV,okay what about Spike_Lee,3456.62,3458.463
+INV,what do you know about Spike_Lee.,3458.463,3459.473
+CHI,he's a director.,3459.473,3460.9
+INV,mhm.,3460.9,3461.353
+CHI,and one of his movies was The_Original_Kings_Of_Comedy,3461.353,3465.602
+CHI,that's it.,3465.602,3470.304
+INV,nothing else about Spike_Lee,3470.304,3471.709
+INV,okay,3485.7,3486.594
+INV,Ebonics,3486.594,3488.777
+INV,what do you know about Ebonics.,3488.777,3489.926
+CHI,well it's a way of talking that lots_of children do,3489.926,3500.514
+CHI,and it's not proper English and saying words the wrong way,3500.514,3508.897
+CHI,and that's it.,3508.897,3515.712
+INV,okay last one,3515.712,3517.627
+INV,tell me what you know about O_J_Simpson.,3517.627,3520.112
+CHI,oh he was the killing his wife,3520.112,3526.869
+CHI,and that's it.,3526.869,3531.037
+INV,nothing else about OJ,3531.037,3532.419
+INV,okay,3532.419,3533.789
+INV,that's everything,3533.789,3535.112
+INV,took a long time huh,3535.112,3536.575
+INV,did you get tired,3536.575,3538.003
+INV,yeah.,3539.524,3540.255
