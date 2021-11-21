@@ -1,26 +1,56 @@
-Converse
-========
+# Converse
+-----------
+
+## Introduction
+
+Conversation analytics plays an increasingly important role in shaping great customer experiences across various industries like finance/contact centers etc..
+primarily to gain a deeper understanding about the customers and to better serve their needs. This library, *Converse* is an attempt to provide tools & methods which can be used to gain an understannding of the conversations from multiple perspecitves using various NLP techniques. 
+
+## Background
+
+### Why *Converse*?
+
+I have been doing what can be called as conversational text NLP with primarily contact center data from various domains like Financial services, Banking, Insurace etc for the past year or so, and I have not come across any interesting open source tools that can help in understanding conversational texts as such I decided to create this library that can provide various tools and methods to analyse calls and help answer important questions/compute important metrics that usually people want to find from conversations, in contact center data analysis settings. 
+
+### Where can I use *Converse*?
+
+The primary usecase is geared towards contact center call analytics, but most of tools that Converse provides can be used elsewhere as well. 
+
+There’s a lot of insights hidden in every single call that happens, Converse enables you to extract those insights and compute various kinds of KPIs from the point of Operational Efficiency, Agent Effectiveness & monitoring Customer Experience etc. 
+
+If you are looking to answer questions like these:- 
+
+1. What was the overall sentiment of the conversation that was exhibited by the speakers? 
+2. Was there periods of dead air(silence periods) between the agents and customer? if so how much? 
+3. Was the agent empathetic towards the customer?
+4. What was the average agent response time/average hold time?
+5. What was being said on calls? 
+
+and more... converse might be of a small help.
+
+### What can *Converse* do?
+
+At the moment converse can do few things that broadly fall into these categories:- 
+
+1. Emotion identification 
+2. Empathetic statement identification
+3. Call Segmentation
+4. Topic identification from call segments
+5. Compute various type of Speaker attributes: 
+    1. linguistic attributes like : word counts/number of words per utterance/negations etc.
+    2. Identify periods of silence & interruptions. 
+    3. Question identification
+    4. Backchannel identification
+6. Assess the overall nature of the speaker via linguistic attributes and tell if the Speaker is: 
+    1. Talkative, verbally fluent
+    2. Informal/Personal/social
+    3. Goal oriented or Forward/future looking/focused on past
+    4. Identify inhibitions
+
+### What Next?
+
+1. Improve documentation.
+2. Add more usecase notebooks/examples.
+3. Improve some of the functionalities and make it more streamlined. 
 
 
-
-Installation
-------------
-
-Converse is distributed on `PyPI <https://pypi.org>`_ as a universal
-wheel and is available on Linux/macOS and Windows and supports
-Python 2.7/3.5+ and PyPy.
-
-```bash
-python setup.py install
-
-```
-
-License
--------
-
-Converse is distributed under the terms of both
-
-- `MIT License <https://choosealicense.com/licenses/mit>`_
-- `Apache License, Version 2.0 <https://choosealicense.com/licenses/apache-2.0>`_
-
-at your option.
