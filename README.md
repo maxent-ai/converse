@@ -61,6 +61,7 @@ At the moment pyconverse can do few things that broadly fall into these categori
     2. Informal/Personal/social
     3. Goal oriented or Forward/future looking/focused on past
     4. Identify inhibitions
+7. Transcript summarization (Abstractive summarization)
 
 ### What Next?
 
