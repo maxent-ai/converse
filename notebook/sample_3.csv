@@ -1,0 +1,756 @@
+speaker,utterance,start_time,end_time
+A,Okay.,5.57,5.94
+A,Does anyone want to see uh Steve's feedback from the specification?,11.09,15.53
+D,I I dry-read it the last Right.,17.08,19.26
+D,time.,19.41,19.61
+D,.,19.61,19.61
+A,"Not really , um just what he's talking about like , duplication of effort and Like duplication of effort and stuff , and um yeah , he was saying that we should maybe uh think about having a prototype for week six which , is next Next week week.",21.41,39.41
+A,Yeah.,39.62,39.62
+A,.,40.05,40.05
+A,So we should probably prioritize our packages.,42.24,47.46
+A,Mm.,56.64,56.89
+B,Yeah.,78.81,79.13
+A,Yeah.,80.02,80.38
+B,"Yeah I , mean if we just want to have um some data for the user face could , even be random data Yeah.",84.38,94.23
+B,Uh.,94.32,94.32
+B,"mm mm Yeah I'm , Yeah.",94.45,110.22
+A,Yeah.,121.94,122.14
+A,Hmm.,155.48,156.35
+A,"Has has anyone actually looked at the Java code for No the , huh.",156.35,160.72
+A,?,161.4,161.4
+A,Hmm.,161.4,161.69
+A,"Yeah I , think so.",186.8,187.52
+C,The basic word importance is off-line as well The.,211.33,214.42
+C,combined measure might not be if we want to wait what the user has typed in into the search.,215.16,220.58
+D,Uh mine's gonna be mostly using the off-line.,222.11,225.38
+D,But the actual stuff it's doing will be on-line But.,225.38,227.28
+D,"it won't be very um processor intensive or memory intensive I , don't think.",227.38,232.21
+A,"Yeah , I I don't know about Hmm the search.",252.27,253.5
+A,"functionality , that might be online Depends.",253.72,256.38
+A,how it's gonna work.,256.77,257.5
+A,Yeah.,265.84,266.2
+D,Don't think so.,294.86,295.53
+D,Yeah.,297.33,297.64
+D,Are we still gonna go for dumping it into a database?,310.94,313.59
+D,Are we still gonna dump it into a database?,313.59,315.6
+D,"'Cause if we are , I reckon we should all read our classes out of the database.",320.21,324.05
+D,It'll be so much easier.,324.05,325.29
+D,"Well if we're gonna dump the part of it into a database anyway we , might as well dump all the fields we want into the database , calculate everything from there.",326.69,336.18
+D,Then we don't even have to worry that much about the underlying X_M_L_ representation We.,336.18,341.1
+D,can just query it.,341.16,342.02
+D,"Well if we're gonna do that we , should try and store everything in in an X_M_L_ format as well.",393.66,398.87
+D,Yeah.,401.19,401.52
+B,Yes.,406.39,406.85
+D,Yeah.,408.25,408.56
+A,Mm-hmm.,460.98,461.22
+B,Hmm yes.,461.27,461.69
+B,Hmm.,474.82,475.0
+A,"Yeah , that makes sense.",479.62,480.4
+D,"Well we don't even need to I'm do that not 'cause , so if we sure got.",494.53,496.47
+D,"our information density calculated off-line , so all we do is treat the whole lot as one massive document I.",496.61,502.47
+D,mean they'll it's not gonna be so big that we can't load in a information density for every utterance And.,502.55,509.12
+D,we can just summarise based on that.,509.23,510.79
+B,I I thought we would just have like um one big summary um with all the uh different importance levels um displayed on it.,511.55,522.34
+B,"And depending on what our um zoom level is , we just display a part of it.",522.34,528.45
+B,And we would have one very big thing off-line And.,531.82,535.94
+B,from that we would just select what we are displaying.,536.13,538.59
+B,Yes.,542.04,542.85
+B,So for example you would um give a high value to those um sequences you want to display in the meeting series summary And.,542.85,552.76
+B,you just cut off.,552.91,554.08
+B,"That was what I sh I thought I yeah , think you.",566.07,568.37
+B,I can thought do it on-line.,568.37,569.03
+D,.,569.25,569.25
+A,Hmm.,578.29,578.58
+D,I don't think there's really much point in doing like that when it's just gonna feed off in the end the information density measure basically And.,578.92,587.16
+D,that's all calculated off-line So.,587.34,588.85
+D,"what you're really doing is sorting a list , is the p computationally hard part of it.",589.05,594.58
+D,"Well like the ideas we're calculating are information density all off-line first for every utterance in the whole corpus right ,?",598.84,606.9
+D,"So what you do is you say if you're looking at a series of meetings , you just say well our whole document comprises of all these stuck together And.",606.9,614.97
+D,then all you have to do is sort them by j information density Like.,615.18,620.18
+D,"maybe weighted with the search terms and , then extract them I.",620.33,623.82
+D,"don't think it's too slow to do on-line to , be honest.",623.88,627.46
+D,Is that But I think the m difference might be that we want just want to have um the words.,639.26,645.18
+B,And that's not so much what he meant with not possibly loading everything was that you m um load all the uh Yeah annotation.,645.18,654.76
+B,"stuff , all Hmm.",655.09,655.68
+B,"the sound files , all Well on , the utterance level I was thinking So.",655.69,688.29
+D,the utterances with the highest like mean information density In.,688.45,692.54
+D,"Well the trouble with doing it on the word level is if you want the audio to synch up you've , got no way of getting in and extracting just that word I.",695.7,702.38
+D,mean it's impossible.,702.44,703.25
+D,For every single word Yeah.,705.89,707.48
+D,?,707.82,707.82
+D,"Oh , okay.",707.82,708.38
+D,Yeah.,710.24,710.5
+D,I don't think that will do it We'll.,713.95,715.49
+D,have Um to buffer it.,715.63,716.4
+B,I r I I'm getting quite lost um at the moment because um w what's um our difference between the um se um uh the importance measure and the skimming I?,717.46,730.59
+B,"mean , do we do both or is it the same thing?",730.68,733.42
+D,Well the skimming's gonna use the importance.,734.08,736.26
+B,Okay.,737.24,737.63
+D,But like at So first but it's when just when gonna we be I_D_F_ talk about.,738.45,740.84
+B,"summaries you talk about this uh abo about skimming and not about Well mostly skimming yeah ,.",741.41,746.3
+B,Yeah.,762.51,762.79
+B,"Yeah right , isn't that the skimming Isn't?",766.8,768.99
+B,that the skimming?,769.32,770.06
+B,"Yeah but , it use the same data.",774.27,775.88
+D,Yeah.,777.43,777.74
+D,Well the nice thing about that is it will automatically be in sentences.,792.21,795.63
+D,Well more or less So.,795.63,797.85
+D,"it will make more sense , and if you get just extract words.",798.06,800.46
+C,"I'm not quite so what it did you want to do it , i you just wanted to assign Uh I thought about words.",811.59,824.36
+C,Mm.,833.96,834.38
+B,Yeah.,842.15,842.69
+B,A Yeah.,844.33,846.84
+B,"And Mm okay , yeah.",855.29,856.12
+B,"I , think we also thought about combining that measure with um the measures I get from um s uh hot-spots and so on.",856.13,865.49
+B,"So that would also be on utterance level , I think I.",865.49,870.09
+B,think I see.,870.22,870.67
+D,it.,870.75,870.88
+D,But it'll need to be calculated at word level though because otherwise there won't be enough occurrences of the terms to make any meaningful sense.,872.5,880.42
+D,Yeah.,884.15,884.44
+D,"Yeah , I reckon you can just mean Yeah it over the sentence but , how.",889.74,892.28
+C,"about those words which don't carry any meaning at all the , um and uhs and something like that.",892.34,898.75
+C,Because if we I think if we should we filter average them.,901.3,903.35
+C,"average over over a whole utterance all the words , and there are quite unimportant words in there , but quite important words as well , I think we should just disregard the the Maybe we should have like um a cut-off.",903.58,919.99
+D,So it a w word only gets a value if it's above a certain threshold.,919.99,925.27
+D,So Okay anything.,925.27,925.95
+D,that has less than say nought point five importance gets assigned to zero.,926.02,930.49
+C,Alright.,931.05,931.28
+D,"Yeah that's , the other th Yeah.",933.33,939.84
+D,I think we'll have to buffer the audio But.,958.21,959.98
+D,I don't think it will be very hard.,960.46,961.67
+D,I think it would be like an hour or two's work.,961.67,963.48
+D,Like just build an another f wave file essentially.,966.3,970.45
+A,"Yeah you , just concatenate Yeah them together , I mean.",970.6,972.37
+D,"I bet there would be packages In memory , yeah.",972.44,977.66
+D,So just like unp there's bound to be like a media wave object or something like that And.,977.66,982.5
+D,just build one in memory.,982.62,983.99
+D,I don't know.,987.31,987.77
+D,I have no idea But.,987.77,989.44
+D,it must have like classes for dealing with files.,989.53,992.97
+D,"And if it has classes for concatenating files , you can do it in memory.",992.97,997.21
+D,"So Well what I think I might try and build is basically a class that you just feed it a linked list of um different wave-forms , and it will just string them all together with maybe , I don't know tenth , of a second silence in between each one or something like that.",997.21,1032.62
+D,"Normalise it , yeah.",1041.16,1042.28
+D,"Oh yeah Yes , yeah , we'll need , sure that.",1072.83,1074.05
+D,.,1074.15,1074.15
+D,We also really wanna be able to search by who's speaking as well.,1076.21,1079.11
+D,"It doesn't matter 'cause , all the calculation's done off-line.",1092.42,1095.29
+A,Hmm.,1105.95,1106.27
+B,Yes Yeah.,1131.12,1131.48
+A,.,1131.77,1131.77
+A,It just means it loads on demand.,1134.46,1136.26
+A,It only loads when it needs a particular type of file.,1136.26,1141.09
+A,Like when it's being accessed.,1141.09,1142.22
+A,"Yeah , I think that's the idea , it just loads the particular ones it needs.",1160.76,1164.37
+A,But if you were doing a search over the whole corpus you'd have to load them all.,1167.5,1170.23
+B,"Yes , right.",1175.4,1176.2
+A,Hmm.,1179.19,1179.47
+B,"Oops , it does.",1180.82,1181.3
+B,So I define baseline and what it loads?,1181.3,1184.41
+B,"For example it loads all the utterances and so on but , it doesn't load um the discourse acts and for example not the and what's what else there?",1184.41,1197.76
+B,Not the summaries.,1197.76,1199.95
+B,It only loads those on demand.,1199.95,1201.72
+B,Y you mean that you um basically split up th the big thing into um different summaries.,1255.01,1262.59
+B,For example that you have a very um top-level um summary and a separate file for for each level.,1262.59,1273.09
+D,That's easy You.,1278.34,1278.92
+D,just like create a new X_M_L_ document in memory.,1279.02,1282.49
+B,Mm-hmm.,1302.56,1302.84
+A,Mm.,1322.74,1322.88
+D,"I don't think it's really that much of a problem because if it's too big , what we can do is just well all the off-line stuff doesn't really matter And.",1336.18,1343.51
+D,all we can do is just process a bit at a time.,1343.67,1346.73
+D,"Like for summarisation , say we wanted a hundred utterances in the summary just , look at the meeting , take the top one hundred utterances in each other meeting.",1346.73,1355.32
+D,"If it scores higher than the ones already in the summary so far just , replace them And.",1355.32,1360.99
+D,then you only have to process one meeting at a time.,1361.12,1363.09
+D,"Okay , so maybe we should build a b store a mean measure for the segments and meetings as well?",1383.44,1390.72
+D,And speaker.,1422.98,1425.0
+D,Speaker and um topic segmenting we'll need as well.,1425.0,1430.72
+D,Yeah.,1432.89,1433.22
+D,"Well yeah , and then it'll f preserve the order when it's displayed the Yeah.",1448.4,1455.0
+D,Yeah.,1457.08,1457.75
+D,"Yeah I , think so.",1466.26,1467.11
+A,Hmm.,1490.28,1490.49
+A,"Yeah , we do not want it in to develop a little tree display as well for multiple results.",1491.68,1495.21
+A,"Yeah , but that'd be quite easy to do.",1497.04,1498.64
+A,You just need to find the time stamp.,1503.52,1504.9
+A,Yeah.,1510.24,1510.64
+A,Yeah.,1549.12,1549.4
+D,"So we should basically make our own X_M_L_ document in memory that everyone's um module changes that , rather than the underlying data.",1557.56,1571.62
+D,And then have that X_M_L_ uh NITE X_M_L_ document tied to the interface.,1571.62,1576.5
+D,"Well , you can make it in a file if you want.",1579.86,1581.69
+D,Mm-hmm.,1603.4,1603.72
+C,Yeah Yes.,1604.0,1604.72
+C,.,1605.26,1605.26
+C,But there is no I_D_ for an utterance I think It's.,1620.71,1622.92
+C,just for individual words So.,1623.17,1625.41
+C,how do we do that then N Uh?,1625.68,1628.02
+C,"We no no , it's f for for utterances as well.",1628.02,1630.92
+B,"No you're , right Yeah.",1632.56,1633.29
+C,I think it's It's.,1633.84,1634.11
+C,"just for for one word Yeah , I think So.",1634.42,1639.22
+C,we I think have those to segments for each utterance are split up.,1639.55,1642.96
+C,Yeah.,1643.27,1643.62
+A,Think so.,1644.2,1644.62
+A,"Yeah , I'm pretty sure it's already there.",1663.46,1665.4
+A,Pretty sure that's already there.,1665.4,1666.38
+A,The the utterances are numbered.,1666.38,1668.93
+B,"Um Uh I'm not quite sure I , have only seen that the uh the individual words have got an I_D_.",1674.56,1680.0
+C,Yeah.,1683.32,1683.96
+C,You always could have a look at the time stamps and then take the ones that uh belong together to form an utterance.,1683.96,1692.41
+B,"No , I I think we would just take the segments that are already Yeah if , they that are were already , there's it's Yeah easy , there's but it um would this segments be possible file.",1693.8,1701.81
+B,Um.,1702.75,1702.75
+B,"you know , the Uh X_M_L_ segments yeah.",1703.02,1704.42
+A,Hmm.,1704.79,1704.9
+C,Okay.,1704.9,1705.05
+C,.,1705.23,1705.23
+B,Oh.,1707.49,1707.63
+B,"That I Yeah don't , I think know so.",1711.24,1712.13
+A,.,1712.18,1712.18
+D,"They are utterances , aren't they?",1742.75,1744.75
+D,"The segments are Ye utterances that's aren't , the impression I get , yeah they?",1744.75,1747.54
+D,Yeah.,1747.54,1747.59
+D,.,1747.77,1747.77
+B,"Yeah that's , um Alright , okay.",1748.2,1751.31
+B,Mm-hmm.,1751.33,1751.68
+A,Oh.,1752.23,1752.42
+B,"There Well there , that's are easy time stamps.",1768.7,1769.88
+B,"um for , well segments , um and for th um segments is for example when when you look at the data what , is displayed in one line.",1770.39,1781.28
+A,Hmm What.,1783.64,1783.86
+B,when when you look at it in the Ye hmm?,1783.99,1786.95
+A,Mm.,1787.21,1787.43
+D,"Well it's I close think enough so , isn't it Isn't.",1789.52,1790.96
+A,Yeah?,1791.01,1791.32
+D,"It may uh , not be exact every time , but Um it's a so for sort ex of size um I we're looking I for compared.",1791.32,1795.22
+B,it with what I did for the pause um duration extraction Um.,1795.49,1800.27
+B,and basically it's uh words that are uttered in a sequence without pauses.,1801.04,1806.52
+B,But sometimes um however there are um short pauses in it and they're indicated by square brackets pause or Right.,1806.52,1814.35
+B,something in the data.,1814.74,1816.32
+B,Um someti uh but uh the annotators decided what was one segment and what wasn't.,1820.55,1826.67
+B,"I Yeah think yeah , so.",1836.07,1836.99
+B,.,1837.15,1837.15
+A,Okay.,1840.72,1841.12
+A,"Topics yeah ,.",1850.38,1851.11
+A,"Yeah , I think that's the right one.",1858.96,1859.86
+A,Hmm Yeah.,1870.8,1871.03
+B,"but , um I think for some annotations um an uttera ca utterance can have several um types.",1871.15,1881.91
+B,For example for the dialogue acts and so on.,1881.91,1883.84
+B,Okay.,1886.55,1887.19
+B,"Yeah that , should be Hmm for.",1887.19,1888.25
+B,Yeah Mm-hmm.,1891.16,1892.39
+B,Should.,1892.39,1892.62
+B,"be yeah ,.",1892.65,1892.99
+D,Yeah.,1923.49,1923.75
+D,But why don't we just write it as a new X_M_L_ file?,1931.62,1934.73
+D,Can NITE handle just loading arbitrary uh new like attributes and stuff?,1934.73,1940.41
+D,"I mean I , would have thought they'd make it able to.",1941.75,1943.54
+D,Yeah.,1944.98,1945.27
+D,So why do we need to have two X_M_L_ trees in memory at once?,1949.19,1952.21
+D,"The other thing is that would mean we'd be using their parser as well , which means we wouldn't have to parse anything which , be quite nice.",1980.46,1986.8
+D,'Cause their parser is probably much faster than anything we've come up with anyway.,1986.8,1990.01
+A,Mm.,2026.47,2026.78
+D,"Yeah , I mean we can process it in chunks if it gets too big basically.",2051.06,2054.59
+D,We can just process it all in chunks if it gets too big to load it into memory.,2054.59,2058.95
+A,Hmm.,2059.91,2060.09
+D,I think we probably want to store Sorry I.,2082.98,2086.16
+D,think we probably want to store um a hierarchical information density as well.,2086.19,2092.3
+D,So like an informan mation density score for each meeting and each topic segment 'Cause.,2092.3,2098.2
+D,otherwise we'd be recalculating the same thing over and over and over again.,2098.34,2101.45
+A,"Yeah , that'd be much more efficient to Yeah do that.",2101.65,2103.21
+A,.,2103.35,2103.35
+A,Yeah.,2103.35,2103.58
+D,And that will obviously make it much easier to display.,2104.99,2108.49
+D,"Well it may not for the whole meeting but , like Yeah , exactly.",2111.44,2127.08
+D,Yeah.,2130.42,2130.7
+D,"Well , we can start off like that.",2144.53,2148.15
+D,Well I was gonna start off I've v got sort of half-way through implementing one that does just I_D_F_.,2148.15,2153.46
+D,And then just I can change that to work on whatever.,2155.09,2158.63
+D,Yeah Hmm.,2169.54,2169.88
+D,.,2169.88,2169.88
+D,And it should be weighted by stuff like the hot spots and um the key-words in the search and stuff like that.,2171.38,2177.56
+A,Hmm.,2188.06,2188.16
+D,Did he not say something about named entities So?,2207.6,2209.58
+D,I thought he said there wasn't very many.,2210.14,2211.63
+D,Yeah.,2213.0,2213.44
+C,You s uh you said you are currently in uh implementing the idea What.,2234.77,2240.47
+D,Yeah exactly are you.,2240.48,2241.94
+D,It's not computing T_F_I_D_F_?,2241.94,2243.0
+D,", it's just inverse document Okay frequency.",2243.53,2245.26
+D,.,2246.51,2246.51
+D,'Cause it's really easy to do basically Okay.,2246.51,2248.75
+D,There's.,2249.43,2249.43
+D,just like for a baseline really.,2249.68,2251.15
+C,Mm-hmm.,2251.36,2251.69
+A,"Yeah you're , able to do that in Java yeah ,?",2252.6,2253.92
+D,"Well , I'm half-way through.",2254.42,2255.68
+D,It's Yeah not working.,2255.68,2255.97
+D,"yet but , it will do.",2256.28,2257.61
+D,Um yeah.,2262.5,2264.29
+D,And then averaging it over the utterances.,2264.29,2266.4
+D,But it's not like um related to the corpus at all It's.,2267.85,2270.74
+D,just working on an arbitrary text file at the moment.,2270.84,2274.35
+D,No.,2277.57,2277.86
+A,Huh.,2278.06,2278.18
+D,It would be useful to know how everyone's gonna store their things though.,2305.09,2309.7
+A,Hmm.,2311.17,2311.49
+D,Yeah.,2315.51,2315.88
+D,Yeah.,2324.66,2325.62
+D,Well I've got like a few hours free Yeah Like.,2325.62,2328.47
+A,"I've , after had a this b.",2328.58,2329.36
+A,"I've had a look at the the topic segments , how it's stored.",2329.52,2333.93
+A,"And then yeah th , those are few per meeting , and it um well , it gives a time stamp and inside each one there's uh the actual like utterance segments.",2333.93,2344.25
+A,And the list of them that occurred.,2345.35,2346.93
+A,And they're all numbered.,2346.93,2347.74
+A,Um so that's where that's stored.,2349.22,2350.76
+A,"Yeah so , I guess um if I'm gonna be segmenting it with a L_C_ seg then that's like same format I'd want to um put it back out in so it'd be equivalent.",2358.32,2369.21
+A,"Well , like the integration.",2380.72,2382.38
+A,"What do you mean integration ,?",2382.38,2383.35
+A,Hmm.,2387.76,2388.23
+A,I don't know.,2391.48,2391.75
+A,I don't think anyone's been allocated to do that yet.,2391.75,2393.71
+A,"Yeah yeah ,.",2400.98,2401.36
+A,"Yeah definitely ,.",2403.25,2403.8
+A,"Hmm yeah ,.",2420.21,2421.11
+D,It's the most boring task Mm-hmm.,2428.69,2430.09
+C,.,2430.46,2430.46
+A,"Yeah Yeah , it c could.",2431.62,2432.18
+A,"be difficult , yeah.",2432.34,2433.32
+A,Yeah.,2447.6,2447.94
+A,Well I guess the important thing is to get the crucial m modules built.,2449.19,2453.71
+D,Or at least um Ye yeah.,2454.29,2456.04
+D,simple versions of them.,2456.21,2457.27
+A,"Yeah and , then Yeah , and then we'll maybe have to prioritize somebody into just integrating it.",2457.6,2465.84
+D,"So maybe we should try doing something really simple like , just displaying a whole meeting.",2505.0,2509.62
+D,And like just being able to scroll through it or something like that.,2510.87,2513.85
+D,Yeah.,2516.04,2516.51
+D,Are you free after this?,2537.81,2539.04
+D,How about Friday then.,2546.05,2547.23
+D,'Cause I'm off all Friday.,2547.23,2548.35
+D,Uh Wednesday I've got a nine 'til twelve.,2552.86,2555.51
+D,"Yeah nothing , in the afternoon I've.",2561.21,2563.21
+D,got nothing in the afternoon So.,2563.36,2564.74
+D,Okay So.,2566.55,2567.19
+D,you ha yeah.,2567.39,2568.03
+D,"Where about , just in Appleton Tower?",2570.84,2572.28
+D,Uh I'll be in um the Appleton Tower anyway.,2576.72,2580.02
+D,Um well I'll be there from twelve.,2582.34,2585.65
+D,"I've got some other stuff that needs done on Matlab so , if you're not there at twelve , I can just work on that.",2585.65,2591.3
+D,So Yeah.,2591.3,2593.29
+A,Mm-hmm.,2617.16,2617.42
+A,"Yeah , I Yeah think , I so.",2627.6,2628.2
+C,w I w I would need the raw text pretty soon because I have to find out um how I have to put the segments into bins And.,2628.22,2639.72
+C,then yeah Uh yeah.,2639.93,2641.45
+A,.,2641.61,2641.61
+C,"No , that's not necessary.",2644.41,2646.33
+A,Hmm.,2649.27,2649.97
+A,"Yeah yeah , Why.",2649.97,2650.47
+A,"Jasmine w , I thought you just said that you'd uh looked at extracting the text.",2650.47,2654.92
+C,"Yes , I did.",2654.98,2656.29
+C,But um I've only just got the notes.,2656.29,2659.1
+C,I have to still have uh to order everything by the time Yeah So.,2659.1,2664.28
+C,"and you you said you did it in Python yeah ,?",2664.43,2666.69
+C,"Yeah , I think it's quite easy Yeah after did , the you use uh b the X_L_ uh X_M_L_ parser Yeah in Python.",2667.14,2672.19
+C,Yeah?,2672.19,2672.3
+A,Right.,2672.3,2672.67
+A,.,2672.79,2672.79
+A,"Yeah , sounds pretty So good uh So.",2672.79,2674.36
+A,"um 'cause yeah , I , was having a look in it a look at it as well and Mm-hmm I noticed.",2675.59,2678.98
+A,the um the speakers are all in that separate file?,2679.2,2683.54
+A,So did did you have to combine them all and and then re-order them?,2683.54,2686.47
+C,"Yeah b , I uh w that's what I was uh thought.",2686.71,2689.66
+C,That Yeah you just.,2689.66,2690.02
+C,"combine them and then Ye order yeah , c the time stamps Right accordingly.",2690.39,2693.91
+A,Yeah.,2694.14,2694.14
+A,"so , that's approach um well I , was going to do.",2694.29,2697.49
+A,"So yeah , we may as well collaborate.",2697.49,2699.66
+C,Okay.,2699.91,2701.15
+C,Um what I found out was that there are quite a lot of things without without s time stamps in the beginning.,2701.15,2708.37
+A,In the word files?,2708.61,2709.28
+C,"Yeah and , Yes uh X_M_L_ , but that's files Yeah.",2709.98,2712.24
+C,", that's just an I_D_ or something.",2712.42,2714.27
+C,I don't Yeah know.,2714.27,2714.64
+C,"Just , everything numbers that's.",2714.64,2715.54
+B,a word has a sti time stamp.,2715.83,2717.66
+C,"Yes , but what are the other things that's uh some kind of number?",2718.67,2723.05
+C,F maybe the file number or something that is in the beginning.,2723.05,2726.71
+C,What is that?,2726.71,2727.29
+A,I'm Do not you sure know I?,2728.79,2729.58
+A,what you mean.,2729.76,2730.41
+C,Um I think there are quite a lot of numbers in the beginning where n there is no time stamp for the numbers.,2730.79,2736.29
+C,"It's Think they say um quite a lot of numbers and before that uh , um there's this number Was.",2737.75,2744.76
+C,"it Yeah , there i are numbers in the um the W_ tag but , there are no time stamps.",2745.14,2753.13
+C,Yeah.,2756.88,2757.4
+B,That's at the end That's.,2759.5,2761.42
+B,"at the end I , think Yeah , her in , time the beginning.",2761.64,2763.53
+C,"as well sometimes I , think Oh right.",2763.76,2766.03
+C,At.,2766.1,2766.1
+C,"least I saw some Yeah maybe ,.",2766.29,2767.56
+B,.,2767.92,2767.92
+B,Didn't Yeah have a look.,2769.24,2769.7
+B,at our meetings.,2769.82,2770.47
+C,Yeah.,2775.29,2775.56
+A,Hmm Uh.,2776.36,2776.58
+B,I I think it wouldn't as it occurs I mean it would be it occurs in every meeting.,2778.65,2785.07
+B,"So And I think it even has uh its own annotation , like digits or something.",2785.07,2794.26
+B,So that should be really easy to cut out.,2794.26,2797.56
+B,Yeah.,2803.23,2803.87
+B,I'm sure.,2803.87,2806.36
+C,But what it is it actually that numbers?,2808.36,2810.81
+B,"Ah it's just to test the system I , think.",2810.97,2812.96
+C,"Okay so , but there So are no time stamps annotated to that.",2813.41,2817.56
+C,It's it's quite strange.,2817.56,2818.82
+B,Mm they have to read numbers from Uh I didn't have a look at that.,2821.05,2835.66
+B,So Hmm.,2835.66,2838.42
+C,And also um there are different um combinations of letters.,2844.45,2850.42
+C,B_R_E_ and something like that.,2850.42,2852.31
+C,Is it everything ordered are the time stamps global or uh are they local at any point?,2852.31,2858.58
+A,Mm I thought they were local They to th a particular meeting.,2859.11,2861.95
+C,Okay.,2862.65,2863.03
+D,Yeah.,2885.1,2885.8
+D,I'm just building a dictionary.,2885.8,2887.24
+D,"Oh mine's , just gonna use the um hash map one in um Java.",2890.34,2894.96
+D,'Cause I'm only gonna do it on small documents It's.,2894.96,2897.25
+D,just like bef until the information density is up and running Just.,2897.37,2901.8
+D,something to get give me something to work with.,2901.99,2903.68
+D,"So it's only gonna use quite small documents you , see to , start with.",2905.84,2909.03
+C,"Yeah , it's Rainbow.",2918.23,2919.51
+C,It's um I think it's just the dictionary in the first place.,2919.51,2923.65
+C,"But Um no , I have to bin it up and so I will only have counts for each each bin or something.",2923.65,2943.73
+D,Why does it need to be classified into like different segments?,2944.03,2947.36
+C,It's because um Rainbow is a text classification system.,2947.73,2951.05
+C,And I think it's not possible to have just one class That's.,2951.05,2956.59
+C,the problem.,2956.82,2957.6
+D,Can we just fill a second class with junk that we don't care about?,2957.6,2961.13
+C,"Maybe we could Like , I don't know , copies of Shakespeare or something Yeah sure.",2961.25,2966.03
+C,"you , sure , we could do that , but I don't that makes sense.",2966.25,2969.37
+D,"'Cause if what we're looking for is the um frequency statistics I , don't see how that would be changed by the classification.",2969.55,2975.45
+C,"If we need just frequencies maybe , we should just calculate them by I the using Perl or something.",2978.15,2986.77
+C,I don't know.,2986.77,2987.18
+D,Well there maybe another tool available?,2988.28,2990.12
+C,"Yeah , it's quite easy to just count and s or sort Yeah them.",2991.38,2994.75
+C,by um frequency.,2994.85,2996.56
+C,Just using a Perl script.,2998.61,3000.69
+C,Is it too big?,3005.49,3006.25
+C,Yeah.,3010.52,3011.1
+C,Hmm.,3019.58,3020.02
+C,I don't know how you how many terms you can handle in Perl.,3026.14,3030.46
+C,Mm yeah.,3037.74,3038.08
+D,Um I can't remember who's got it.,3045.6,3048.3
+D,Might be WordNet.,3048.3,3049.47
+D,But one of these big corpuses has a list of stop words that you can download and they're just basically lists of really uninteresting boring words that we could filter out before we do that.,3049.47,3061.37
+D,"It's like that's one the papers I read , that's um one things they did right at the beginning is they've got this big s stop-list and they just ignore all of those throughout the experiment.",3064.57,3075.13
+D,"Yeah , I it would be useful for me as well.",3091.09,3093.72
+D,It uh I think that'd be useful for me as well.,3097.1,3100.59
+D,Yeah.,3100.59,3100.95
+D,Yeah.,3105.95,3106.31
+D,Well all you really wanna do is look into getting some sub-set of the ICSI corpus off the DICE machines.,3115.47,3121.68
+D,'Cause I hate working on DICE.,3121.68,3123.09
+D,It's awful.,3123.09,3123.79
+D,Like so I can use my home machine.,3125.51,3127.28
+D,ha has a C_D_ burner though.,3130.15,3132.83
+D,has a C_D_ burner.,3132.83,3133.99
+D,Yeah.,3149.36,3150.52
+D,"The right-hand corner , far right.",3150.52,3152.2
+D,Yeah Mm-hmm.,3154.3,3154.59
+D,.,3154.62,3154.62
+D,How big is it without um the WAV files and stuff?,3170.27,3176.7
+D,'Cause I could just say at um going over S_C_P_ one night and just leave it going all night if I had to.,3178.12,3183.69
+D,"It's yeah I , mean the wave data are obviously not gonna get off there completely.",3192.9,3198.15
+D,Really Oh?,3205.83,3206.7
+D,right?,3206.95,3207.2
+D,"I'll see if I can S_C_P_ it , I suppose.",3214.76,3217.05
+D,I've got a Linux box and a Windows box.,3220.97,3223.45
+D,So Broad-band.,3223.45,3226.04
+D,Put it on to C_D_ I.,3229.32,3230.99
+D,can if I get down I can put to C_D_.,3231.13,3233.1
+D,Yeah.,3234.71,3235.05
+D,I'm not sure if there's enough space.,3247.17,3249.44
+D,Is how much do we get?,3249.44,3250.9
+D,Really?,3254.02,3254.96
+D,Okay.,3254.96,3255.59
+D,"Yeah but , I can do it from that session , can't I You?",3272.48,3274.83
+D,can compress it from a remote session and S_C_P_ it from the same session?,3274.9,3279.43
+D,Do you think?,3300.26,3300.74
+D,Yeah Oh.,3305.85,3306.89
+D,"no no , I was thinking of SSHing just into some machine and then just SCPing it from there.",3307.0,3312.8
+D,Yeah I.,3317.13,3317.51
+D,mean it has to go through the gateway But.,3317.61,3319.03
+D,Can you not do that?,3321.34,3322.2
+D,"Mm , I see.",3328.32,3328.94
+B,Uh th yeah.,3334.44,3335.87
+D,Yeah.,3336.22,3336.56
+B,'Kay.,3338.26,3338.57
+B,"Um I just um wondered so , who's uh then doing um the frequencies on on the words , because I'm I think I will also um I could also make use of it um for the agreement and disagreement thing Because.",3338.57,3358.43
+B,"I um I in my outline I talked about um using the um discourse acts first , and um then in the chunks of text I found looking for word patterns and so on So.",3358.79,3376.67
+B,um I would for example need the um most freq um frequent words.,3377.14,3384.86
+B,"So if you cut off all that I'd , won't be use or Yeah , I I but I need it for my chunks then.",3384.86,3401.74
+B,I would You know?,3401.74,3403.84
+B,"Yeah , but I'd uh I would like to look at the frequency of words in my um in the regions of text I found out to be interesting.",3406.6,3418.96
+B,So So I you wouldn't could just need it.,3418.96,3420.34
+B,It it would have to be re-calculated only for my segments.,3420.34,3424.01
+D,"But th first , uh how big are the chunks?",3425.03,3427.56
+B,Huh?,3428.85,3429.05
+D,How big are the chunks you're looking at?,3429.17,3430.95
+B,Uh uh mm.,3431.35,3433.75
+B,"I think it would be , you know , l as as big at as the hot-spot annotation So quite things small then That's.",3433.75,3443.31
+B,"quite small yeah ,.",3443.51,3444.21
+D,"So that's , you could just some utterances um.",3444.21,3445.81
+D,you could use just Hmm.,3446.26,3446.98
+D,the same thing we used to build the big dictionary.,3447.03,3449.7
+D,"You just do that on-line 'cause that won't take long to build a little dictionary that big , will it.",3449.7,3457.08
+D,I mean just use the same tool that Yes we Yeah.,3457.08,3460.37
+D,"use yeah ,.",3460.38,3460.83
+D,Yeah.,3460.83,3461.05
+B,.,3461.39,3461.39
+B,So I would probably just concatenate all my Yeah.,3461.39,3465.21
+B,um text chunks and then let's say m I will run over it.,3465.39,3469.04
+B,Yes.,3475.13,3475.54
+C,"Uh I can get all the raw text but , it has to be ordered still.",3493.64,3497.21
+C,"So It doesn't need ordered , no.",3497.21,3502.12
+C,"No , it isn't.",3502.32,3502.97
+D,Um well that's the t are you using T_F_I_D_F_ for the information density?,3516.67,3522.74
+C,"Um it's in what is implemented in Rainbow is information gain and , I'm not quite Alright sure how they okay ,.",3523.39,3529.39
+C,calculate that.,3530.23,3530.97
+D,"Like 'cause frequency would be useful I , think Yeah.",3532.42,3537.62
+D,But.,3537.7,3537.7
+D,"um depending on the context the , size , and what we consider a document in the sense of calculating T_F_I_D_F_ is gonna change.",3537.9,3547.92
+D,Which might need thinking about.,3550.46,3552.19
+C,Uh that's what Rainbow does I.,3563.4,3564.61
+C,think you j can just get probabilities for a certain words for each document.,3564.76,3570.77
+C,Certain Um we would have to look at that.,3572.06,3578.9
+C,Mm-hmm.,3585.58,3586.02
+C,Oh.,3587.79,3588.1
+D,"I think it would be useful yeah ,.",3599.03,3600.6
+D,Well you need the raw frequency as well.,3602.39,3607.4
+D,But um you also need how many times things occur within each document.,3607.4,3615.81
+D,"And um what we consider a document's gonna depend on our context , I think.",3617.34,3622.73
+D,"'Cause if we're looking at the whole lot of meetings we'll , consider each meeting a document in sort of terms of this algorithm.",3622.73,3629.39
+D,And if we're viewing like say just a small topic segment you might look at even each utterance as a small document.,3629.39,3638.62
+D,"Yeah , but the thing is um It's gonna need some th th thought of how we Actually maybe it doesn't actually matter.",3657.12,3668.26
+D,"Maybe if you just do it once at the highest level , it it will be fine.",3668.26,3673.04
+D,But I was just thinking it might be difficult to calculate the T_F_I_D_F_ off-line for all the different levels we might want.,3673.04,3681.11
+D,"'Cause if we're gonna allow disjoint segments for example , then how are we gonna know what's gonna be in context at any given time?",3681.11,3689.2
+D,"But I suppose if you just did it globally , treating a meeting as a document , it'd probably still be work out fine because , you'd only be comparing to ones within the context.",3689.2,3700.25
+D,"Uh I don't know , I thought were you gonna use that in the end?",3709.73,3712.58
+D,The information density.,3715.4,3716.71
+D,"Oh sorry that's , what I mean Like.",3729.4,3730.31
+D,"um yeah for , each word or whatever , but across the whole lot is what I mean by highest level Like.",3730.63,3737.31
+D,across the whole corpus.,3737.47,3738.57
+D,"Yeah , but you'd probably look at each meeting as a document.",3746.73,3749.29
+D,Mm possibly.,3766.42,3767.34
+C,"Yeah that's , what I thought as well that , you that probably the the topic segment level is the most um informative for the words.",3783.48,3793.52
+D,"Are they big enough to get anything meaningful Yeah that's , out the of problem?",3794.42,3797.05
+C,.,3797.62,3797.62
+C,I don't know.,3797.62,3798.23
+D,"Well yeah , that is not it's not an issue You.",3814.21,3815.78
+D,just concatenate an X_M_L_ file together but.,3815.9,3818.27
+D,we still want to have like a notion of meetings for the user.,3818.43,3822.65
+B,"Yes , definitely.",3823.37,3825.56
+D,"Yeah , sure.",3830.98,3832.1
+D,"Yeah , you just like whatever you want to look at , you just jam together into an X_M_L_ file and that's your meeting , even though bits of it may come from all over the place or whatever.",3832.1,3843.37
+D,I mean I don't see why that's really a big problem.,3843.37,3848.03
+D,So basically what you're saying is you can take an arbitrary amount of data and process it with the same algorithm It.,3856.98,3862.54
+D,doesn't matter conceptually what that data is.,3862.66,3866.26
+D,It could be a meeting it.,3866.26,3867.37
+D,could be two utterances.,3867.45,3869.27
+D,it could be a meeting plus half a meeting from somewhere else.,3869.27,3872.16
+D,I don't think it's very difficult though.,3904.71,3906.1
+D,"I mean what you do is you just build an X_M_L_ file , and if you want it to get down to the utterances , you'd go to the leaves.",3906.1,3913.38
+D,"And then if you wanted the next level up , you'd go to the parents of those and like just go from like the leaves inwards towards the branch to build up things like um you know , when you click on a segment , it's gonna have like words or whatever that are important.",3913.38,3932.13
+D,"As long as like the algorithms are designed um with it in mind I , don't think it's a very big problem.",3939.98,3946.05
+D,"Well like say you had um like say for a meeting right , you've , got like uh say a hierarchy that looks quite big , like this.",3949.19,3959.2
+D,And like the utterances come off of here maybe.,3961.84,3964.19
+D,"Then when whatever your algorithm is doing as , long as when you're working with utterances you , go for all the leaves , like then if you need something next up , so like a topic segment , you'd go to here But.",3966.04,3978.29
+D,"if you were looking at say this one , so only went like this.",3978.6,3981.81
+D,"Right , so you it's same , you'd start with the leaves and , you go oh , I want a topic segment.",3985.18,3989.48
+D,So I go one layer up.,3989.48,3990.48
+D,"See , and then if you're working with just a topic segment in there , it's the only thing you have to worry about.",3992.16,3998.33
+D,"And like each time you want a higher level you , just need to go up the tree.",3998.33,4002.56
+D,"And as long as your algorithm respects that , then we can just process any arbitrary X_M_L_ file with whatever hierarchical structure we want.",4002.56,4013.87
+D,"A meeting , say , and that would be a topic segment.",4019.3,4021.7
+D,"So I think as long as you build an algorithm that respects whatever structure's in the file , rather than imposing its own structure Well no , it doesn't have to be.",4029.92,4049.13
+D,But I mean it could be as many nodes as you want.,4051.2,4053.81
+D,"Like this one could be deeper maybe , say So.",4053.81,4058.02
+D,"then you'd start with all your utterances here , and when you go up to get topic segments you , go to here here here here here here here.",4058.18,4065.82
+D,That might be a bit confusing though 'cause you have things on different levels.,4068.0,4070.99
+A,Mm is there anything else we should discuss?,4099.41,4101.28
+D,Well Wednesday Yeah.,4106.34,4108.43
+D,.,4108.84,4108.84
+D,Yeah.,4112.56,4112.82
+D,So we'll see if we can get like a mini-browser just displays two things synched together of some kind.,4114.85,4121.81
+D,Yeah.,4121.81,4122.99
+D,Yeah.,4122.99,4123.15
+A,"Yeah , should we not have like a group directory or something where we can put all our code in and that kinda thing?",4127.45,4132.95
+D,It'd be useful.,4133.69,4134.3
+D,I don't know who you see about that though.,4134.3,4135.99
+A,Hmm.,4136.63,4136.91
+A,I've gotten Mm-hmm mm I.,4149.32,4149.96
+D,d have hardly no any idea.,4149.99,4151.03
+D,I've probably got a reasonable amount because um everything on my DICE account can actually be deleted 'cause I store it all at home as well.,4153.96,4161.13
+A,Hmm.,4162.31,4162.62
+D,"Is that guaranteed to stay , the Yeah we , can ask Steve if um we can get space.",4172.82,4179.72
+D,Maybe you should send a support form.,4183.21,4184.96
+A,"Yeah uh , we could Just do that say.",4185.66,4187.0
+D,we want some web space.,4187.12,4188.42
+D,Listen to.,4191.06,4192.57
+A,"Yeah , I'm sure he had to deal with that last year.",4193.81,4195.69
+D,Yeah 'Cause.,4195.87,4196.58
+D,that'd be really useful is if we had a big directory Especially.,4196.72,4200.17
+D,for transferring stuff.,4200.54,4202.37
+D,"Having said that , are we allowed to take a copy of the ICSI corpus Something?",4206.72,4210.48
+D,we should probably ask before we do it.,4210.69,4212.3
+D,.,4213.943,4213.943
+D,Okay.,4217.01,4217.53
+D,Okay.,4233.48,4233.9
+D,"No me , neither Yeah , right.",4245.27,4247.59
+B,Ye.,4249.85,4250.15
+C,So M shall we sit together tomorrow then as well?,4252.22,4254.35
+C,Uh Yeah.,4254.35,4255.32
+C,Okay.,4255.38,4255.76
+B,"Um Jasmine uh , um what is um the text you're extracting uh looking like then at the end?",4256.32,4264.31
+C,"Um yeah , w , would it be best?",4265.08,4267.6
+C,At the moment it's Because it's just um lines I of I think it's actually very similar to what I did for my Mm-hmm.,4267.6,4273.4
+B,um speaker um uh extraction and I think I would ch perhaps have to change two lines of codes to get you um for each meeting a file that says fr from um this millisecond to this millisecond there was this sequence of words.,4273.5,4292.44
+B,And so on.,4294.13,4294.62
+C,Um So that's just changing two lines of code.,4296.13,4300.15
+B,And it would give you that.,4300.15,4301.22
+B,So Okay.,4301.22,4303.6
+C,"So um you'd do you extract the words the , raw text , as well Um?",4303.6,4307.95
+C,Uh yeah So.,4307.95,4308.54
+B,far I extracted um the dura durations Okay.,4308.75,4312.75
+B,But.,4312.75,4312.81
+B,it's from the words file So.,4313.17,4314.68
+B,I could Mm-hmm just.,4315.05,4315.57
+B,um Print contatenate out.,4316.72,4318.53
+B,"concatenate um the words instead of the durations , and it should I mean Should be very straight-forward.",4318.95,4332.14
+B,I can try to do it and send it to you Okay.,4334.26,4336.92
+B,Pe and Okay.,4336.92,4337.34
+B,"you that , have a look at it , will it make sense for what you want.",4337.47,4341.02
+C,Okay.,4342.8,4343.17
+C,So have we already extracted from all the files?,4351.34,4353.82
+B,"Yeah uh , p I mean it Yeah I just.",4354.56,4356.39
+B,let it run over all the files.,4356.84,4358.61
+B,So Did you also order Yes Mm-hmm.,4358.61,4361.81
+B,I.,4362.22,4362.22
+B,just ordered.,4362.28,4362.98
+B,Uh I ordered according to the um starting times Hmm of.,4365.92,4369.57
+B,the utterances.,4369.64,4370.29
+B,What do you mean by diffe Hmm.,4382.18,4387.68
+B,"Yeah I , mean t I I have one what I give you would be one file for each meeting.",4392.71,4398.18
+B,"Yeah , not for each meeting series.",4401.57,4403.55
+B,I didn't do that yet.,4403.55,4404.4
+B,"Yeah , one Hmm group.",4411.33,4412.07
+B,", yeah Might.",4412.26,4412.44
+D,be funny to see what is summarised the whole corpus as anyway.,4412.57,4419.9
+D,I think it'd be very useful But.,4419.9,4421.5
+B,"Yeah I , mean there's one series that has just one meeting That sounds good.",4434.05,4439.16
+B,.,4439.47,4439.47
+B,Yes.,4444.88,4445.71
+B,Um the you you the data is of the form you have um three identification letter.,4445.71,4451.31
+B,"So B_E_D_ or B_B_D_ or something , and that's always the same group.",4451.31,4456.09
+B,"And then after that there's um a number like O_O_ one , O_O_ two.",4456.09,4460.96
+B,"So , it's a Yeah , but that's Hmm.",4460.96,4470.99
+B,that's really quite easy to see because they're named.,4471.12,4475.28
+B,Yes.,4492.11,4493.0
+B,"But I I mean as um the start uh start times um start for each meeting at zero , you could just probably just um add the um final second time to the next meeting and so on and just put it all together.",4493.0,4512.2
+B,"But then we would have to change um the information about who on which channel it was set um , to by which person it was set.",4512.2,4522.19
+B,And that is actually stored in another X_M_L_ document.,4522.19,4525.28
+A,Hmm.,4526.22,4526.42
+A,"Yeah , that's what I'm gonna need.",4534.72,4536.71
+B,"Yeah I , w would then just not print out the um Yes start.",4538.2,4543.44
+B,"and end times Yeah it's , just mo.",4543.8,4545.33
+A,changing Okay it a bit.,4545.44,4545.94
+A,.,4546.03,4546.03
+B,"No , it's for every single word.",4550.72,4552.4
+D,We can Or just for change every the code single.,4553.72,4554.82
+B,utterance.,4554.94,4555.62
+B,Yeah Yeah.,4555.62,4555.94
+B,", that depends on what you want.",4556.06,4557.25
+B,"Yeah but , I do it with Perl , it's just string manipulation So.",4559.6,4562.52
+B,I would I mean I would just Sure.,4562.68,4570.03
+B,"No I , didn't do a sea no.",4582.42,4584.29
+A,"No , but uh that's what M_L_C_ seg does.",4587.11,4589.74
+A,It it marks the end of each segment.,4589.74,4592.02
+A,Yeah.,4594.57,4594.76
+A,Yeah.,4604.13,4604.34
+B,And you would want that all in one file for all the corpus?,4606.54,4611.81
+B,Or For the series.,4611.81,4615.12
+B,"Yeah , I can directly put it into uh just like Oh So.",4620.19,4626.79
+B,uh only words um per meeting series.,4627.16,4631.71
+A,Yeah.,4636.54,4636.77
+A,"Yeah , for me it's better if they're by meeting.",4638.2,4640.33
+B,Uh-huh.,4643.75,4644.13
+B,Yes.,4648.13,4648.89
+B,"Yeah , they will just I will just take I would uh take over the names they have anyway.",4650.4,4656.58
+B,"Yeah , yeah.",4661.08,4661.47
+B,"Yeah , one series has the um same three starting letters So.",4662.81,4667.07
+B,So only words and words and times And.,4669.11,4672.12
+C,"Uh you I don't need the times , I just need the words.",4672.23,4675.46
+C,"But um Yeah you , Yeah want in , the it right ordered order Yes.",4675.46,4679.19
+B,Okay.,4679.46,4679.46
+B,.,4680.83,4680.83
+B,"Okay , anybody.",4680.83,4682.45
+B,Um ord base dot times.,4685.37,4686.88
+B,"Yeah , and do you want Yeah , sometimes they're contained in one another.",4688.1,4694.18
+B,"So Yeah , that doesn't matter too much Just , I think after th.",4694.18,4697.1
+B,mm-hmm 'Kay.,4697.35,4698.8
+B,.,4699.1,4699.1
+B,Ordered Only.,4700.34,4701.62
+B,words.,4702.0,4702.57
+A,Then that'll be really easy to do once they've got the raw text.,4715.76,4719.1
+A,It's just a case of running the script.,4719.1,4721.32
+A,"Yeah , I mean hopefully this week.",4724.85,4726.45
+B,"Um and I think um for all the corpus , it's just from I know from other times , it's um nine megami byte to have I mean should be should be similar Is that to it have the That's?",4727.29,4737.89
+D,quite words good.,4738.08,4738.55
+B,Should.,4739.33,4739.33
+B,be.,4739.65,4739.87
+B,Na um all the words together um for all the meetings.,4742.16,4745.88
+A,Alright.,4746.92,4747.08
+B,"That's what I'm guessing that's you , know , um what I because nine mega-byte is what I got for when I said for every um utterance this , is goes from there to there and takes takes seconds.",4749.62,4764.74
+A,And we Oh could.,4767.71,4768.97
+B,"Yeah , I mean I'm it doing it for all of it.",4768.97,4772.8
+B,Doesn't matter.,4772.8,4773.65
+D,Yeah.,4781.27,4781.65
+B,"Yeah , I mean I hope it will be the same for the words It's.",4790.55,4794.46
+B,"just what I I I could just use it with the frequency , I think , until the information density thing's finished.",4794.67,4823.08
+D,That would be really useful.,4823.08,4824.19
+B,Mm-hmm Hmm.,4824.86,4825.59
+B,.,4825.73,4825.73
+B,Mm So.,4825.73,4827.05
+B,so um I will probably send um just one file of the first meeting um to all those who need it so that you can have a look whether that's what you want.,4828.34,4839.35
+C,Mm-hmm.,4839.91,4840.27
+B,"Yeah I , mean if it's just for one meeting it's , really not too big.",4844.42,4847.23
+B,Yeah.,4849.51,4849.8
+C,How long would it take to make the frequency counts with a Java hash table?,4856.57,4863.09
+C,Yeah.,4868.2,4868.82
+C,"No how , long you would have to program something.",4871.04,4873.98
+C,Okay.,4879.8,4880.1
+C,Mm.,4886.37,4886.73
+C,"Because it's quite easy in Perl as well , it's just a line of code for counting all the words and yeah , it's it's by hashes.",4891.18,4899.73
+C,Yeah.,4901.68,4902.05
+C,Yeah.,4905.03,4905.27
+C,'Kay.,4915.12,4915.39
+D,"If you're doing it in Java , could you um serialize the output as well as writing it to a file?",4921.63,4928.03
+D,"If you're doing it in Java , could you serialize the um dictionary , yeah , as well as writing it to a file?",4928.03,4934.56
+D,It's really easy.,4936.25,4937.52
+D,I don't see why it'd be any more massive than the file.,4941.91,4943.99
+D,Yeah.,4947.32,4947.73
+D,It just saves you parsing the um file representation of it.,4951.16,4956.71
+D,And now 'cause I would be using it in Java anyway.,4956.71,4959.51
+D,So I'd just be building the data structure again.,4959.51,4961.74
+D,"Yeah but , it seems like a bit silly to be parsing it over and over again kinda thing.",4971.86,4976.73
+D,I would've thought that um I think all the collections and things implement serializable already.,4987.25,4994.49
+D,I think they might do.,4997.18,4998.25
+D,Tonight I'll try and um I'll either work some more on uh the T_F_I_D_F_ summarizer or do the audio thing.,5013.02,5021.09
+A,Don't know Suppose.,5039.62,5039.92
+A,we're just getting on with all our Yeah components.,5040.16,5042.58
+A,So.,5043.12,5043.12
+D,Do I we have know to demonstrate something next week.,5047.24,5048.83
+A,Wa?,5048.83,5048.88
+B,What do we have to demonstrate?,5049.55,5050.89
+A,Yeah Yeah.,5059.43,5060.09
+A,"he , suggested that we could have an uh initial prototype.",5060.21,5062.96
+A,"I know , I'd Yeah.",5066.7,5067.55
+A,b I'd be surprised if we can get anything working by next week.,5067.65,5072.3
+A,Alright.,5081.07,5081.24
+D,"Yeah , I know.",5092.34,5093.27
+D,I think it's 'cause we had to specify it ourselves that it's not as um like focus the specification of most um work we have to do.,5098.29,5107.97
+D,Yeah.,5113.62,5114.09
+D,Once we start doing it it will all become more or less obvious I think anyway.,5115.46,5119.5

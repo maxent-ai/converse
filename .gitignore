@@ -138,3 +138,5 @@ dmypy.json
 cython_debug/
 
 nohup.out
+*/.DS_Store
+.DS_Store

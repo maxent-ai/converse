@@ -49,7 +49,7 @@ class ZeroShotTopicFinder:
         return labels
 
     def get_keyword(self, text):
-        kw = [i[0] for i in self.model.extract_keywords(text)]
+        kw = [i for (i, j) in self.model.extract_keywords(text) if j >= 0.30]
         return kw
 
     def get_parent_words(self, keywords):

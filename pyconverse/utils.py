@@ -8,19 +8,27 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from transformers import pipeline
 
+
 @lru_cache
 def load_sentence_transformer(model_name='all-MiniLM-L6-v2'):
     model = SentenceTransformer(model_name)
     return model
+
 
 @lru_cache
 def load_spacy():
     return spacy.load('en_core_web_sm')
 
 
-def load_zeroshot_model(model_name="valhalla/distilbart-mnli-12-6"):
+def load_zeroshot_model(model_name="facebook/bart-large-mnli"):
     classifier = pipeline("zero-shot-classification", model=model_name)
     return classifier
+
+
+def load_summarization_model(model="knkarthick/MEETING_SUMMARY"):
+    model = pipeline("summarization", model=model)
+    return model
+
 
 def remove_punct(text):
     punct_list = re.compile('[%s]' % re.escape(string.punctuation))
