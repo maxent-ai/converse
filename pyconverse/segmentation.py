@@ -10,7 +10,7 @@ nlp = load_spacy()
 
 
 @attr.s
-class SemanticTextSegmention:
+class SemanticTextSegmentation:
 
     """
     Segment a call transcript based on topics discussed in the call using

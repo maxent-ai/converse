@@ -1,6 +1,6 @@
 import attr
 from .utils import load_summarization_model
-from .segmentation import SemanticTextSegmention
+from .segmentation import SemanticTextSegmentation
 from tqdm import tqdm
 
 
@@ -38,7 +38,7 @@ class TranscriptSummarization:
         self._summary_model = load_summarization_model()
 
     def _create_segments(self):
-        tt = SemanticTextSegmention(self.data, self.utterance)
+        tt = SemanticTextSegmentation(self.data, self.utterance)
         self._segments = tt.get_segments(self.similarity_threshold)
 
         segment_index = 0
