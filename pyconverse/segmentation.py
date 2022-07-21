@@ -85,6 +85,10 @@ class SemanticTextSegmentation:
         embeding_2 = model.encode(sentence_2)
         embeding_1 = np.mean(embeding_1, axis=0).reshape(1, -1)
         embeding_2 = np.mean(embeding_2, axis=0).reshape(1, -1)
+        
+        if np.any(np.isnan(embeding_1)) or np.any(np.isnan(embeding_2)):
+            return 1
+        
         sim = cosine_similarity(embeding_1, embeding_2)
         return sim
 
