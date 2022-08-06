@@ -9,13 +9,13 @@ from sklearn.metrics.pairwise import cosine_similarity
 from transformers import pipeline
 
 
-@lru_cache
+@lru_cache()
 def load_sentence_transformer(model_name='all-MiniLM-L6-v2'):
     model = SentenceTransformer(model_name)
     return model
 
 
-@lru_cache
+@lru_cache()
 def load_spacy():
     return spacy.load('en_core_web_sm')
 
